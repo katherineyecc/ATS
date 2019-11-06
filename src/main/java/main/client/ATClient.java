@@ -68,7 +68,6 @@ public class ATClient implements Runnable {
 		}
 	}
 
-	@Override
 	public void run() {
 		while (thread != null) {
 			try {

@@ -66,7 +66,7 @@ public class University implements UniversityInt {
 		
 		timer_registrationstarts.schedule(new TimerTask() {
 			
-			@Override
+			
 			public void run() {
 				Config.REGISTRATION_STARTS = true;
 				//System.out.println("registration starts");
@@ -75,7 +75,7 @@ public class University implements UniversityInt {
 		
 		timer_registrationends.schedule(new TimerTask() {
 			
-			@Override
+			
 			public void run() {
 				// TODO Auto-generated method stub
 				Config.REGISTRATION_ENDS = true;
@@ -85,7 +85,7 @@ public class University implements UniversityInt {
 		
 		timer_termends.schedule(new TimerTask() {
 			
-			@Override
+			
 			public void run() {
 				// TODO Auto-generated method stub
 				Config.TERM_ENDS = true;
@@ -160,19 +160,19 @@ public class University implements UniversityInt {
 		University.currentstudent = currentstudent;
 	}
 
-	@Override
+	
 	public List<Course> Courses() {
 		// TODO Auto-generated method stub
 		return getCourses();
 	}
 
-	@Override
+	
 	public List<Student> Students() {
 		// TODO Auto-generated method stub
 		return getStudents();
 	}
 	
-	@Override
+	
 	public Student GetStudent(int number) {
 		// TODO Auto-generated method stub
 		Student student = null;
@@ -185,7 +185,7 @@ public class University implements UniversityInt {
 		return student;
 	}
 
-	@Override
+	
 	public Course GetCourse(int mycode) {
 		// TODO Auto-generated method stub
 		Course course = null;
@@ -198,7 +198,7 @@ public class University implements UniversityInt {
 		return course;
 	}
 	
-	@Override
+	
 	public boolean CheckCourse(int mycode) {
 		// TODO Auto-generated method stub
 		int flag = 0;
@@ -218,7 +218,7 @@ public class University implements UniversityInt {
 		return result;
 	}
 	
-	@Override
+	
 	public boolean CheckStudent(int number) {
 		// TODO Auto-generated method stub
 		int flag = 0;
@@ -238,7 +238,7 @@ public class University implements UniversityInt {
 		return result;
 	}
 
-	@Override
+	
 	public boolean LookupStudent(int number, String name) {
 		// TODO Auto-generated method stub
 		boolean result = true;
@@ -260,7 +260,7 @@ public class University implements UniversityInt {
 		return result;
 	}
 
-	@Override
+	
 	public boolean CreateCourse(String title, int mycode, int cap, 
 			boolean enforcePrereqs, int numberofmidterms, 
 			int numberofassignments, boolean hasafinal, 
@@ -294,7 +294,7 @@ public class University implements UniversityInt {
 		return result;
 	}
 
-	@Override
+	
 	public boolean CreateStudent(int number, String name,
 			boolean isfulltime) {
 		// TODO Auto-generated method stub
@@ -319,7 +319,7 @@ public class University implements UniversityInt {
 		return result;
 	}
 
-	@Override
+	
 	public boolean RegisterStudentForCourse(Student student, Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
@@ -352,7 +352,7 @@ public class University implements UniversityInt {
 		return result;
 	}
 	
-	@Override
+	
 	public boolean DeRegisterStudentFromCourse(Student student, Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
@@ -371,7 +371,7 @@ public class University implements UniversityInt {
 		return result;
 	}
 
-	@Override
+	
 	public boolean CancelCourse(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
@@ -398,7 +398,7 @@ public class University implements UniversityInt {
 		return result;
 	}
 
-	@Override
+	
 	public boolean DestroyCourse(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
@@ -426,7 +426,7 @@ public class University implements UniversityInt {
 		return result;
 	}
 
-	@Override
+	
 	public boolean DestroyStudent(Student student) {
 		// TODO Auto-generated method stub
 		boolean result = true;
@@ -456,7 +456,7 @@ public class University implements UniversityInt {
 	private boolean candofinal = false;
 	private boolean cantakecourse = true;
 	
-	@Override
+	
 	public boolean MarkStudents(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
@@ -607,7 +607,7 @@ public class University implements UniversityInt {
 		}
 	}
 
-	@Override
+	
 	public List<Student> DeansList() {
 		// TODO Auto-generated method stub
 		List<Student> deansList = new ArrayList<Student>();

@@ -171,32 +171,27 @@ public class Course implements CourseInt {
 		return this.myCode + ", " + this.title;
 	}
 	
-	@Override
 	public String Title() {
 		// TODO Auto-generated method stub
 		return getTitle();
 	}
 
-	@Override
 	public int Code() {
 		// TODO Auto-generated method stub
 		return getMyCode();
 	}
 
-	@Override
 	public List<Student> Students() {
 		// TODO Auto-generated method stub
 		List<Student> s = new ArrayList<Student>(getEnrollStudent().keySet());
 		return s;
 	}
 
-	@Override
 	public List<Integer> PreRequisites() {
 		// TODO Auto-generated method stub
 		return getPreRequisites();
 	}
 
-	@Override
 	public int WeightOfAssignment(int assignmentNum) {
 		// TODO Auto-generated method stub
 		int i;
@@ -209,7 +204,6 @@ public class Course implements CourseInt {
 		return w;
 	}
 
-	@Override
 	public int WeightOfMidterm(int midtermNum) {
 		// TODO Auto-generated method stub
 		int i;
@@ -222,19 +216,16 @@ public class Course implements CourseInt {
 		return w;
 	}
 
-	@Override
 	public int WeightOfFinal() {
 		// TODO Auto-generated method stub
 		return getWeightOfFinal();
 	}
 
-	@Override
 	public boolean HasProject() {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
-	@Override
 	public boolean IsFull() {
 		// TODO Auto-generated method stub
 		if (Students().size()==capsize) {
@@ -243,13 +234,11 @@ public class Course implements CourseInt {
 		return false;
 	}
 
-	@Override
 	public int MarkForStudent(Student student) {
 		// TODO Auto-generated method stub
 		return getEnrollStudent().get(student);
 	}
 
-	@Override
 	public boolean AddStudent(Student student) {
 		// TODO Auto-generated method stub
 		boolean result = true;
@@ -276,7 +265,6 @@ public class Course implements CourseInt {
 		return result;
 	}
 
-	@Override
 	public boolean RemoveStudent(Student student) {
 		// TODO Auto-generated method stub
 		Iterator<Student> iterator = enrollStudent.keySet().iterator();

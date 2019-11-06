@@ -87,43 +87,43 @@ public class Student implements StudentInt {
 		return this.studentNumber + ", " + this.studentName;
 	}
 
-	@Override
+	
 	public int StudentNumber() {
 		// TODO Auto-generated method stub
 		return getStudentNumber();
 	}
 
-	@Override
+	
 	public String Name() {
 		// TODO Auto-generated method stub
 		return getStudentName();
 	}
 
-	@Override
+	
 	public boolean isFullTime() {
 		// TODO Auto-generated method stub
 		return isFullTime;
 	}
 
-	@Override
+	
 	public boolean isCreated() {
 		// TODO Auto-generated method stub
 		return isCreated;
 	}
 
-	@Override
+	
 	public List<Course> CompletedCourse() {
 		// TODO Auto-generated method stub
 		return getCompletedCourses();
 	}
 
-	@Override
+	
 	public List<Course> CurrentCourse() {
 		// TODO Auto-generated method stub
 		return getRegisteredCourses();
 	}
 
-	@Override
+	
 	public boolean SelectCourse(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
@@ -137,7 +137,7 @@ public class Student implements StudentInt {
 		return result;
 	}
 
-	@Override
+	
 	public boolean RegisterCourse(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
@@ -158,7 +158,7 @@ public class Student implements StudentInt {
 		return result;
 	}
 
-	@Override
+	
 	public boolean DropCourse(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
@@ -172,7 +172,7 @@ public class Student implements StudentInt {
 		return result;
 	}
 
-	@Override
+	
 	public boolean DeRegisterCourse(Course course) {
 		// TODO Auto-generated method stub
 		boolean result = true;
@@ -216,7 +216,7 @@ public class Student implements StudentInt {
 		}
 	}
 
-	@Override
+	
 	public int AverageMark() {
 		// TODO Auto-generated method stub
 		int sum = 0;

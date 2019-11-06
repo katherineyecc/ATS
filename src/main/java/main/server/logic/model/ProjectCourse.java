@@ -42,19 +42,19 @@ public class ProjectCourse extends Course implements ProjectCourseInt {
 		this.weightOfProject = weightOfProject;
 	}
 
-	@Override
+	
 	public int WeightOfProject() {
 		// TODO Auto-generated method stub
 		return getWeightOfProject();
 	}
 
-	@Override
+	
 	public boolean HasProject() {
 		// TODO Auto-generated method stub
 		return isHasAProject();
 	}
 
-	@Override
+	
 	public void GenerateWeights() {
 		// TODO Auto-generated method stub
 		int n = this.numberOfMidterms + this.numberOfAssignments + (this.hasAFinal?1:0) + (this.hasAProject?1:0);
