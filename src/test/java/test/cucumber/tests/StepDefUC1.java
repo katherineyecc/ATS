@@ -131,4 +131,51 @@ public class StepDefUC1 extends TestCase {
 		atc2 = null;
 		robot = null;
 	}
+	
+	@When("^The Clerk input \"([^\"]*)\" and incorrect password \"([^\"]*)\" and then correct password \"([^\"]*)\"$")
+	public void the_Clerk_input_and_incorrect_password_and_then_correct_password(String arg1, String arg2, String arg3) throws AWTException {
+		ats = new ATServer(Config.DEFAULT_PORT);
+		Thread t = new Thread(ats);
+		t.start();
+		try {
+			robot = new Robot();
+			robot.delay(9000);
+			robot.keyPress(KeyEvent.VK_ENTER);//greeting
+			robot.delay(500);
+			for(int index=0; index<arg1.length(); index++) {
+				char c = arg1.charAt(index);
+				robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.delay(200);
+			}
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.delay(1000);
+			for(int index=0; index<arg2.length(); index++) {
+				char c = arg2.charAt(index);
+				robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.delay(200);
+			}
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.delay(1000);
+			for(int index=0; index<arg3.length(); index++) {
+				char c = arg3.charAt(index);
+				robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.delay(200);
+			}
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.delay(1000);
+		} catch (AWTException e) {
+			e.printStackTrace();
+		}
+		int state = ats.getClientState();
+		System.out.println(state);
+		if(state == 2) {//2 is state CLERK
+			success = true;
+		}
+		ats = null;
+		atc2 = null;
+		robot = null;
+	}
 }
