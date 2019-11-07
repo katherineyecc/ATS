@@ -18,7 +18,7 @@ import org.apache.log4j.Logger;
 
 public class ATServer implements Runnable {
 	
-	int clientCount = 0;
+	public int clientCount = 0;
 	private Thread thread = null;
 	private ServerSocket server = null;
 	private HashMap<Integer, ServerThread> clients;
@@ -51,7 +51,6 @@ public class ATServer implements Runnable {
 		}
 	}
 
-	
 	public void run() {
 		while (thread != null) {
 			try {
@@ -134,6 +133,14 @@ public class ATServer implements Runnable {
 			if(clientList.get(i).getClient().equals(from)){
 				result=clientList.get(i).getState();
 			}
+		}
+		return result;
+	}
+	
+	public int getClientState() {//获取第一个Client的state
+		int result = 0;
+		for(int i=0;i<clientList.size();i++){
+			result=clientList.get(i).getState();
 		}
 		return result;
 	}

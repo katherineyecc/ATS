@@ -1,19 +1,26 @@
 package test.cucumber.tests;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import junit.framework.TestCase;
 import main.server.logic.handler.InputHandler;
 import main.server.logic.handler.OutputHandler;
+import main.server.network.ATServer;
+import main.server.network.StartServer;
 import main.utilities.Config;
 import main.client.ATClient;
 import main.client.ClientThread;
+import main.client.StartTerminals;
+
+import java.awt.*;
+import java.awt.event.KeyEvent;
 
 public class StepDefUC1 extends TestCase {
 	ATClient atc;
 	String msg = "Exit";
-	
+
 	@Given("^The ATS server is on$")
 	public void the_ATS_server_is_on(){
 	    // Write code here that turns the phrase above into concrete actions
@@ -28,7 +35,56 @@ public class StepDefUC1 extends TestCase {
 		atc = new ATClient(Config.DEFAULT_HOST, Config.DEFAULT_PORT);
 		atc.handle(msg);
 		assertEquals(true, atc.getIsStop());
-		
+	}
+	
+	ATClient atc2;
+	ATServer ats;
+	Robot robot;
+	boolean success = false;
+	@When("^The Clerk input \"([^\"]*)\" and password \"([^\"]*)\"$")
+	public void the_Clerk_input_and_password(String arg1, String arg2) throws AWTException {
+		ats = new ATServer(Config.DEFAULT_PORT);
+		Thread t = new Thread(ats);
+		t.start();
+		/*atc2 = new ATClient(Config.DEFAULT_HOST, Config.DEFAULT_PORT);
+		Thread t2 = new Thread(atc2);
+		t2.start();*/
+		try {
+			robot = new Robot();
+			robot.delay(9000);
+			robot.keyPress(KeyEvent.VK_ENTER);//greeting
+			robot.delay(500);
+			for(int index=0; index<arg1.length(); index++) {
+				char c = arg1.charAt(index);
+				robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.delay(200);
+			}
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.delay(1000);
+			for(int index=0; index<arg2.length(); index++) {
+				char c = arg2.charAt(index);
+				robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.delay(200);
+			}
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.delay(1000);
+		} catch (AWTException e) {
+			e.printStackTrace();
+		}
+		int state = ats.getClientState();
+		System.out.println(state);
+		if(state == 2) {//2 is state CLERK
+			success = true;
+		}
+		ats = null;
+		atc2 = null;
+		robot = null;
 	}
 
+	@Then("^The Clerk enters the system successfully$")
+	public void the_Clerk_enters_the_system_successfully() {
+	    assertEquals(true, success);
+	}
 }
