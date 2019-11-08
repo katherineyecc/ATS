@@ -210,4 +210,63 @@ public class StepDefUC3 extends TestCase {
 		ats = null;
 		robot = null;
 	}
+	
+	@When("^The Clerk logs into ATS and enters \"([^\"]*)\" and \"([^\"]*)\" and current term not ending and registration not starting$")
+	public void the_Clerk_logs_into_ATS_and_enters_and_and_current_term_not_ending_and_registration_not_starting(String arg1, String arg2) throws AWTException {
+		ats = new ATServer(Config.DEFAULT_PORT);
+		Thread t = new Thread(ats);
+		t.start();
+		try {
+			robot = new Robot();
+			robot.delay(8000);
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.keyRelease(KeyEvent.VK_ENTER);
+			robot.delay(500);
+			for(int index=0; index<identity.length(); index++) {
+				char c = identity.charAt(index);
+				robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.delay(200);
+			}
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.keyRelease(KeyEvent.VK_ENTER);
+			robot.delay(1000);
+			for(int index=0; index<password.length(); index++) {
+				char c = password.charAt(index);
+				robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.delay(200);
+			}
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.keyRelease(KeyEvent.VK_ENTER);
+			robot.delay(1000);			
+			for(int index=0; index<arg1.length(); index++) {
+				char c = arg1.charAt(index);
+				robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.delay(200);
+			}
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.keyRelease(KeyEvent.VK_ENTER);
+			robot.delay(1000);
+			for(int index=0; index<arg2.length(); index++) {
+				char c = arg2.charAt(index);
+				robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.delay(200);
+			}
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.keyRelease(KeyEvent.VK_ENTER);
+			robot.delay(1000);
+		} catch(AWTException e) {
+			e.printStackTrace();
+		}
+		int state = ats.getClientState();
+		//System.out.println(Config.TERM_ENDS);
+		//System.out.println(Config.REGISTRATION_STARTS);
+		if(state == 6 && Config.TERM_ENDS == false && Config.REGISTRATION_STARTS == false)
+			success = true;
+		ats = null;
+		robot = null;
+	}
 }

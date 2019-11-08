@@ -7,8 +7,8 @@ public class Config {
 	public static final int MAX_BORROWED_ITEMS = 3;
 	//20 seconds for 1 day
 	//public static final int SIMULATED_DAY = 1 * 20;//UC3_2
-	//public static final int SIMULATED_DAY = 1 * 2000;
-	public static final int SIMULATED_DAY = 1 * 400;//UC3_3
+	public static final int SIMULATED_DAY = 1 * 2000;//UC3_4
+	//public static final int SIMULATED_DAY = 1 * 400;//UC3_3
 	public static final int OVERDUE = 20;
 	public static final int REGISTRATION_LASTS = 14;
 	public static final int TERM_LASTS = 118;
