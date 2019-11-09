@@ -25,6 +25,7 @@ public class ATServer implements Runnable {
 	private Logger logger = Trace.getInstance().getLogger(this);
 	InputHandler handler=new InputHandler();
 	private List<Client> clientList=new ArrayList<Client>();
+	public String output = null;
 	
 	public ATServer(int port) {
 		
@@ -96,7 +97,7 @@ public class ATServer implements Runnable {
 			ServerThread from = clients.get(ID);			
 			logger.info(String.format("Input from %s:%d"+" "+input,from.getSocketAddress(),from.getID()));
 			ServerOutput so;
-			String output;
+			//String output;
 			if(exist(from)){
 				int state=clientState(from);
 				so=handler.processInput(input,state);
