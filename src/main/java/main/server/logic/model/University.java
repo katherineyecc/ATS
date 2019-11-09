@@ -116,7 +116,7 @@ public class University implements UniversityInt {
 
 	private void InitializeStudents() {
 		students.clear();
-		/*
+		
 		int[] studentNumberList = new int[]{101075401, 101075402};
 		String[] studentNameList = new String[]{"tom","jack"};
 		boolean[] isFullTimeList = new boolean[]{true,false};
@@ -125,7 +125,7 @@ public class University implements UniversityInt {
 			students.add(s);
 		}
 		logger.info(String.format("University Operation: Initialize student list; students: %s", students));
-		*/
+		
 	}
 
 	public int getUniversityCourses() {
