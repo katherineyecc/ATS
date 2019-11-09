@@ -99,7 +99,7 @@ public class University implements UniversityInt {
 	
 	private void InitializeCourses() {
 		courses.clear();
-		
+		/*
 		ProjectCourse c1 = new ProjectCourse("OO Software Dev", 105104, 30, false, 0, 3, false);
 		ProjectCourse c2 = new ProjectCourse("Computational Geometry", 105008, 20, false, 0, 3, false);
 		Course c3 = new Course("Principles of Distributed Computing", 105003, 20, false, 1, 2, true);
@@ -111,7 +111,7 @@ public class University implements UniversityInt {
 		courses.add(c4);
 		courses.add(c5);
 		logger.info(String.format("University Operation: Initialize course list; courses: %s", courses));
-		
+		*/
 	}
 
 	private void InitializeStudents() {
