@@ -6,8 +6,8 @@ public class Config {
 	public static final String DEFAULT_HOST = "127.0.0.1";
 	public static final int MAX_BORROWED_ITEMS = 3;
 	//20 seconds for 1 day
-	//public static final int SIMULATED_DAY = 1 * 20;//UC3_2, UC4_2, UC5_2, UC6_2, UC7_2
-	public static final int SIMULATED_DAY = 1 * 2000;//UC3_1, UC3_4, UC3_5, UC4_1, UC4_4, UC4_5, UC5_3, UC6_1, UC6_4, UC7_1, UC7_4
+	public static final int SIMULATED_DAY = 1 * 20;//UC3_2, UC4_2, UC5_2, UC6_2, UC7_2, UC10_2
+	//public static final int SIMULATED_DAY = 1 * 2000;//UC3_1, UC3_4, UC3_5, UC4_1, UC4_4, UC4_5, UC5_3, UC6_1, UC6_4, UC7_1, UC7_4
 	//public static final int SIMULATED_DAY = 1 * 400;//UC3_3, UC4_3, UC5_1, UC5_4, UC6_3, UC7_3
 	public static final int OVERDUE = 20;
 	public static final int REGISTRATION_LASTS = 14;
