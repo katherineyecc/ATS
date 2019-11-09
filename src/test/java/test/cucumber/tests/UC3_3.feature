@@ -9,4 +9,6 @@ Feature: Title of your feature
   When The Clerk logs into ATS and enters "create course" and "OO Dev, 105104, 30, n, 0, 4, n, n" and current term not ending and registration starts
   
   Then The Clerk cannot create the courses
+  
+  #SIMULATED_DAY = 400
     

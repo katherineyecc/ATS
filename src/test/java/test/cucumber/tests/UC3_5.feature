@@ -10,3 +10,4 @@ Feature: Title of your feature
   
   Then The Clerk cannot create the courses
     
+  #SIMULATED_DAY = 2000
