@@ -338,4 +338,9 @@ public class StepDefUC4 extends TestCase {
 		robot = null;
 	}
 	
+	@Then("^The Clerk cannot cancel the course$")
+	public void the_Clerk_cannot_cancel_the_course() throws AWTException {
+		assertEquals(true, success);
+	}
+	
 }

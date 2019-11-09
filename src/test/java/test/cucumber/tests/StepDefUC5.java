@@ -89,4 +89,5 @@ public class StepDefUC5 extends TestCase {
 	public void the_Clerk_cancels_the_course_successfully() throws AWTException {
 		assertEquals(true, success);
 	}
+	
 }
