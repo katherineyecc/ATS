@@ -1,0 +1,267 @@
+2019-11-11 22:41:27 INFO  ATServer:33 - Binding to port 5050
+@2019-11-11 22:41:27 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-11 22:41:27 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-11 22:41:27 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-11 22:41:27 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-11 22:41:27 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-11 22:41:27 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-11 22:41:27 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-11 22:41:27 INFO  String:113 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2019-11-11 22:41:27 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-11 22:41:27 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-11 22:41:27 INFO  String:127 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2019-11-11 22:41:27 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2019-11-11 22:41:27 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2019-11-11 22:41:39 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:50763] Client Socket: [50763 ]
+
+@2019-11-11 22:41:39 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-11 22:41:39 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__50763
+@2019-11-11 22:41:39 INFO  ATClient:32 - 50763 : Connected to server: /127.0.0.1
+@2019-11-11 22:41:39 INFO  ATClient:33 - 50763 : Connected to portid: 50763
+@2019-11-11 22:41:43 INFO  ATServer:98 - Input from 127.0.0.1:50763 clerk
+@2019-11-11 22:41:43 INFO  ATServer:115 - Output to 127.0.0.1:50763 Who Are you? Clerk or Student?
+
+@2019-11-11 22:41:46 INFO  ATServer:98 - Input from 127.0.0.1:50763 clerk
+@2019-11-11 22:41:46 INFO  ATServer:107 - Output to 127.0.0.1:50763 Please Input The Password:
+
+@2019-11-11 22:41:48 INFO  ATServer:98 - Input from 127.0.0.1:50763 admin1
+@2019-11-11 22:41:48 INFO  ATServer:107 - Output to 127.0.0.1:50763 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-11 22:41:50 INFO  ATServer:98 - Input from 127.0.0.1:50763 log out
+@2019-11-11 22:41:50 INFO  ATServer:107 - Output to 127.0.0.1:50763 Successfully Log Out!
+
+@2019-11-11 22:41:53 INFO  ATServer:98 - Input from 127.0.0.1:50763 null
+@2019-11-11 22:41:53 INFO  ATServer:107 - Output to 127.0.0.1:50763 Who Are you? Clerk or Student?
+
+@2019-11-11 22:41:53 INFO  ATServer:98 - Input from 127.0.0.1:50763 null
+@2019-11-11 22:41:53 INFO  ATServer:107 - Output to 127.0.0.1:50763 Who Are you? Clerk or Student?
+
+@2019-11-11 22:41:53 INFO  ATServer:98 - Input from 127.0.0.1:50763 null
+@2019-11-11 22:41:53 INFO  ATServer:107 - Output to 127.0.0.1:50763 Who Are you? Clerk or Student?
+
+@2019-11-11 22:41:53 INFO  ATServer:98 - Input from 127.0.0.1:50763 null
+@2019-11-11 22:41:53 INFO  ATServer:107 - Output to 127.0.0.1:50763 Who Are you? Clerk or Student?
+
+@2019-11-11 22:41:53 INFO  ATServer:98 - Input from 127.0.0.1:50763 null
+@2019-11-11 22:41:53 INFO  ATServer:107 - Output to 127.0.0.1:50763 Who Are you? Clerk or Student?
+
+@2019-11-11 22:41:53 INFO  ATServer:98 - Input from 127.0.0.1:50763 null
+@2019-11-11 22:41:53 INFO  ATServer:107 - Output to 127.0.0.1:50763 Who Are you? Clerk or Student?
+
+@2019-11-11 22:41:53 INFO  ATServer:98 - Input from 127.0.0.1:50763 null
+@2019-11-11 22:41:53 INFO  ATServer:107 - Output to 127.0.0.1:50763 Who Are you? Clerk or Student?
+
+@2019-11-11 22:41:53 INFO  ATServer:98 - Input from 127.0.0.1:50763 null
+@2019-11-11 22:41:53 INFO  ATServer:107 - Output to 127.0.0.1:50763 Who Are you? Clerk or Student?
+
+@2019-11-11 22:41:53 INFO  ATServer:98 - Input from 127.0.0.1:50763 null
+@2019-11-11 22:41:53 INFO  ATServer:107 - Output to 127.0.0.1:50763 Who Are you? Clerk or Student?
+
+@2019-11-11 22:41:53 INFO  ATServer:98 - Input from 127.0.0.1:50763 null
+@2019-11-11 22:41:53 INFO  ATServer:107 - Output to 127.0.0.1:50763 Who Are you? Clerk or Student?
+
+@2019-11-11 22:41:53 INFO  ATServer:98 - Input from 127.0.0.1:50763 null
+@2019-11-11 22:41:53 INFO  ATServer:107 - Output to 127.0.0.1:50763 Who Are you? Clerk or Student?
+
+@2019-11-11 22:41:53 INFO  ATServer:98 - Input from 127.0.0.1:50763 null
+@2019-11-11 22:41:53 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2019-11-11 22:41:53 INFO  ATServer:107 - Output to 127.0.0.1:50763 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:33 INFO  ATServer:33 - Binding to port 5050
+@2019-11-11 22:43:33 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-11 22:43:33 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-11 22:43:33 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-11 22:43:33 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-11 22:43:33 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-11 22:43:33 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-11 22:43:33 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-11 22:43:33 INFO  String:113 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2019-11-11 22:43:33 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-11 22:43:33 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-11 22:43:33 INFO  String:127 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2019-11-11 22:43:33 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2019-11-11 22:43:33 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2019-11-11 22:43:40 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:50769] Client Socket: [50769 ]
+
+@2019-11-11 22:43:40 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-11 22:43:40 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__50769
+@2019-11-11 22:43:40 INFO  ATClient:32 - 50769 : Connected to server: /127.0.0.1
+@2019-11-11 22:43:40 INFO  ATClient:33 - 50769 : Connected to portid: 50769
+@2019-11-11 22:43:44 INFO  ATServer:98 - Input from 127.0.0.1:50769 
+@2019-11-11 22:43:44 INFO  ATServer:115 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:45 INFO  ATServer:98 - Input from 127.0.0.1:50769 clerk
+@2019-11-11 22:43:45 INFO  ATServer:107 - Output to 127.0.0.1:50769 Please Input The Password:
+
+@2019-11-11 22:43:48 INFO  ATServer:98 - Input from 127.0.0.1:50769 admin1
+@2019-11-11 22:43:48 INFO  ATServer:107 - Output to 127.0.0.1:50769 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-11 22:43:51 INFO  ATServer:98 - Input from 127.0.0.1:50769 log out
+@2019-11-11 22:43:51 INFO  ATServer:107 - Output to 127.0.0.1:50769 Successfully Log Out!
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-11 22:43:53 INFO  ATServer:98 - Input from 127.0.0.1:50769 null
+@2019-11-11 22:43:53 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2019-11-11 22:43:53 INFO  ATServer:107 - Output to 127.0.0.1:50769 Who Are you? Clerk or Student?
+
+@2019-11-12 08:40:25 INFO  ATServer:33 - Binding to port 5050
+@2019-11-12 08:40:25 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-12 08:40:25 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-12 08:40:25 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-12 08:40:25 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-12 08:40:25 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-12 08:40:25 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-12 08:40:25 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-12 08:40:25 INFO  String:113 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2019-11-12 08:40:25 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-12 08:40:25 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-12 08:40:25 INFO  String:127 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2019-11-12 08:40:25 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2019-11-12 08:40:25 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2019-11-12 08:40:25 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-12 08:40:32 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:51049] Client Socket: [51049 ]
+
+@2019-11-12 08:40:32 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-12 08:40:32 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__51049
+@2019-11-12 08:40:32 INFO  ATClient:32 - 51049 : Connected to server: /127.0.0.1
+@2019-11-12 08:40:32 INFO  ATClient:33 - 51049 : Connected to portid: 51049
+@2019-11-12 08:40:39 INFO  ATServer:98 - Input from 127.0.0.1:51049 
+@2019-11-12 08:40:39 INFO  ATServer:115 - Output to 127.0.0.1:51049 Who Are you? Clerk or Student?
+
+@2019-11-12 08:40:41 INFO  ATServer:98 - Input from 127.0.0.1:51049 clerk
+@2019-11-12 08:40:41 INFO  ATServer:107 - Output to 127.0.0.1:51049 Please Input The Password:
+
+@2019-11-12 08:40:42 INFO  ATServer:98 - Input from 127.0.0.1:51049 admin1
+@2019-11-12 08:40:42 INFO  ATServer:107 - Output to 127.0.0.1:51049 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-12 08:40:44 INFO  ATServer:98 - Input from 127.0.0.1:51049 log out
+@2019-11-12 08:40:44 INFO  ATServer:107 - Output to 127.0.0.1:51049 Successfully Log Out!
+
+@2019-11-12 08:42:14 INFO  ATServer:33 - Binding to port 5050
+@2019-11-12 08:42:14 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-12 08:42:14 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-12 08:42:14 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-12 08:42:14 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-12 08:42:14 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-12 08:42:14 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-12 08:42:14 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-12 08:42:14 INFO  String:113 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2019-11-12 08:42:14 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-12 08:42:14 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-12 08:42:14 INFO  String:127 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2019-11-12 08:42:14 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2019-11-12 08:42:14 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2019-11-12 08:42:14 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-12 08:42:21 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:51056] Client Socket: [51056 ]
+
+@2019-11-12 08:42:21 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-12 08:42:21 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__51056
+@2019-11-12 08:42:21 INFO  ATClient:32 - 51056 : Connected to server: /127.0.0.1
+@2019-11-12 08:42:21 INFO  ATClient:33 - 51056 : Connected to portid: 51056
+@2019-11-12 08:42:28 INFO  ATServer:98 - Input from 127.0.0.1:51056 
+@2019-11-12 08:42:28 INFO  ATServer:115 - Output to 127.0.0.1:51056 Who Are you? Clerk or Student?
+
+@2019-11-12 08:42:29 INFO  ATServer:98 - Input from 127.0.0.1:51056 clerk
+@2019-11-12 08:42:29 INFO  ATServer:107 - Output to 127.0.0.1:51056 Please Input The Password:
+
+@2019-11-12 08:42:30 INFO  ATServer:98 - Input from 127.0.0.1:51056 admin1
+@2019-11-12 08:42:30 INFO  ATServer:107 - Output to 127.0.0.1:51056 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-12 08:42:32 INFO  ATServer:98 - Input from 127.0.0.1:51056 log out
+@2019-11-12 08:42:32 INFO  ATServer:107 - Output to 127.0.0.1:51056 Successfully Log Out!
+
+@
