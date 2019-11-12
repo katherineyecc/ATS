@@ -1146,4 +1146,73 @@ Available Course List:
 @2019-11-12 10:39:50 INFO  String:393 - University Operation: cancel course 105105; State: Success
 @2019-11-12 10:39:50 INFO  ATServer:107 - Output to 127.0.0.1:51364 Success!
 
+@2019-11-12 15:37:10 INFO  ATServer:33 - Binding to port 5050
+@2019-11-12 15:37:10 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-12 15:37:10 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-12 15:37:10 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-12 15:37:10 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-12 15:37:10 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-12 15:37:10 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-12 15:37:10 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-12 15:37:10 INFO  String:113 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2019-11-12 15:37:10 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-12 15:37:10 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-12 15:37:10 INFO  String:127 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2019-11-12 15:37:10 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2019-11-12 15:37:10 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2019-11-12 15:37:10 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-12 15:37:17 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:53299] Client Socket: [53299 ]
+
+@2019-11-12 15:37:17 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-12 15:37:17 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__53299
+@2019-11-12 15:37:17 INFO  ATClient:32 - 53299 : Connected to server: /127.0.0.1
+@2019-11-12 15:37:17 INFO  ATClient:33 - 53299 : Connected to portid: 53299
+@2019-11-12 15:37:25 INFO  ATServer:98 - Input from 127.0.0.1:53299 
+@2019-11-12 15:37:25 INFO  ATServer:115 - Output to 127.0.0.1:53299 Who Are you? Clerk or Student?
+
+@2019-11-12 15:37:26 INFO  ATServer:98 - Input from 127.0.0.1:53299 student
+@2019-11-12 15:37:26 INFO  ATServer:107 - Output to 127.0.0.1:53299 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-12 15:37:30 INFO  ATServer:98 - Input from 127.0.0.1:53299 101075403, jerry
+@2019-11-12 15:37:30 INFO  String:258 - University Operation: Lookup student; Student info: [101075403,jerry]; State: Fail
+@2019-11-12 15:37:30 INFO  ATServer:107 - Output to 127.0.0.1:53299 Invalid student number or student name.
+
+@2019-11-12 15:37:32 INFO  ATServer:98 - Input from 127.0.0.1:53299 log out
+@2019-11-12 15:37:32 INFO  ATServer:107 - Output to 127.0.0.1:53299 Your input should be in this format: 'student number, name'
+
+@2019-11-12 15:38:05 INFO  ATServer:33 - Binding to port 5050
+@2019-11-12 15:38:05 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-12 15:38:05 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-12 15:38:05 INFO  String:71 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-12 15:38:05 INFO  String:71 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-12 15:38:05 INFO  String:71 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-12 15:38:05 INFO  String:71 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-12 15:38:05 INFO  String:71 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-12 15:38:05 INFO  String:113 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2019-11-12 15:38:05 INFO  String:35 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-12 15:38:05 INFO  String:35 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-12 15:38:05 INFO  String:127 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack]
+@2019-11-12 15:38:05 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages]
+@2019-11-12 15:38:05 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack]
+@2019-11-12 15:38:05 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-12 15:38:11 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:53303] Client Socket: [53303 ]
+
+@2019-11-12 15:38:11 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__53303
+@2019-11-12 15:38:11 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-12 15:38:11 INFO  ATClient:32 - 53303 : Connected to server: /127.0.0.1
+@2019-11-12 15:38:11 INFO  ATClient:33 - 53303 : Connected to portid: 53303
+@2019-11-12 15:38:15 INFO  ATServer:98 - Input from 127.0.0.1:53303 
+@2019-11-12 15:38:15 INFO  ATServer:115 - Output to 127.0.0.1:53303 Who Are you? Clerk or Student?
+
+@2019-11-12 15:38:17 INFO  ATServer:98 - Input from 127.0.0.1:53303 student
+@2019-11-12 15:38:17 INFO  ATServer:107 - Output to 127.0.0.1:53303 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-12 15:38:20 INFO  ATServer:98 - Input from 127.0.0.1:53303 101075401, tom
+@2019-11-12 15:38:20 INFO  String:255 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-12 15:38:20 INFO  ATServer:107 - Output to 127.0.0.1:53303 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-12 15:38:22 INFO  ATServer:98 - Input from 127.0.0.1:53303 log out
+@2019-11-12 15:38:22 INFO  String:182 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-12 15:38:22 INFO  ATServer:107 - Output to 127.0.0.1:53303 Successfully Log Out!
+
 @
