@@ -9,28 +9,28 @@ import main.utilities.Config;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
-public class StepDefSeq1 extends TestCase {
-	
+public class StepDefSeq2 extends TestCase {
+
 	ATServer ats = new ATServer(Config.DEFAULT_PORT);
 	Robot robot;
 	int[] stateSeq = new int[] {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1};
-	int[] expectSeq = new int[] {2,0};
+	int[] expectSeq = new int[] {2,2,2};
 	int index = 0;
 	String[] msgSeq = new String[10];
 	String[] str = new String[] {"What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.\n", 
-			"Successfully Log Out!\n"};
+			"Success!\n", "Success!\n"};
 	
-	@Given("^The AST server is turned on$")
-	public void the_AST_server_is_turned_on() throws Throwable {
+	@Given("^Turn on the ATS server$")
+	public void turn_on_the_ATS_server() throws Throwable {
 		Thread t = new Thread(ats);
 		t.start();
 	}
 
-	@When("^Clerk c(\\d+) enters \"([^\"]*)\" and password \"([^\"]*)\"$")
-	public void clerk_c_enters_and_password(int arg1, String arg2, String arg3) throws Throwable {
+	@When("^Clerk c(\\d+) enters \"([^\"]*)\" and \"([^\"]*)\"$")
+	public void clerk_c_enters_and(int arg1, String arg2, String arg3) throws Throwable {
 		try {
 			robot = new Robot();
-			robot.delay(8000);
+			robot.delay(5000);
 			robot.keyPress(KeyEvent.VK_ENTER);
 			robot.keyRelease(KeyEvent.VK_ENTER);
 			robot.delay(200);
@@ -60,10 +60,19 @@ public class StepDefSeq1 extends TestCase {
 		index++;
 	}
 
-	@When("^Clerk c(\\d+) enters \"([^\"]*)\"$")
-	public void clerk_c_enters(int arg1, String arg2) throws Throwable {
+	@When("^Enters \"([^\"]*)\" and info \"([^\"]*)\"$")
+	public void enters_and_info(String arg1, String arg2) throws Throwable {
 		try {
 			robot = new Robot();
+			robot.delay(200);
+			for(int index=0; index<arg1.length(); index++) {
+				char c = arg1.charAt(index);
+				robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.delay(200);
+			}
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.keyRelease(KeyEvent.VK_ENTER);
 			robot.delay(200);
 			for(int index=0; index<arg2.length(); index++) {
 				char c = arg2.charAt(index);
@@ -77,16 +86,47 @@ public class StepDefSeq1 extends TestCase {
 		} catch (AWTException e) {
 			e.printStackTrace();
 		}
-		stateSeq[index] = ats.getClientState(); // =0
-		msgSeq[index] = ats.output; // ="Successfully Log Out!\n"
+		stateSeq[index] = ats.getClientState(); // =2
+		msgSeq[index] = ats.output; // ="Success!\n"
+		index++;
+	}
+	
+	@When("^Enters \"([^\"]*)\" and number \"([^\"]*)\"$")
+	public void enters_and_number(String arg1, String arg2) throws Throwable {
+		try {
+			robot = new Robot();
+			robot.delay(200);
+			for(int index=0; index<arg1.length(); index++) {
+				char c = arg1.charAt(index);
+				robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.delay(200);
+			}
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.keyRelease(KeyEvent.VK_ENTER);
+			robot.delay(200);
+			for(int index=0; index<arg2.length(); index++) {
+				char c = arg2.charAt(index);
+				robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.delay(200);
+			}
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.keyRelease(KeyEvent.VK_ENTER);
+			robot.delay(200);
+		} catch (AWTException e) {
+			e.printStackTrace();
+		}
+		stateSeq[index] = ats.getClientState(); // =2
+		msgSeq[index] = ats.output; // ="Success!\n"
 	}
 
-	@Then("^c(\\d+) logs in and out successfully$")
-	public void c_logs_in_and_out_successfully(int arg1) throws Throwable {
-	    for(int i=0; i<=index; i++) {
+	@Then("^c(\\d+) creates and deletes student successfully$")
+	public void c_creates_and_deletes_student_successfully(int arg1) throws Throwable {
+		for(int i=0; i<=index; i++) {
 	    	assertEquals(expectSeq[i], stateSeq[i]);
 	    	assertEquals(str[i], msgSeq[i]);
-	    }
+		}
 	}
-
+	
 }
