@@ -1,7 +1,9 @@
 package main.server.logic.model;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import main.utilities.Trace;
 
@@ -19,6 +21,8 @@ public class Student implements StudentInt {
 	List<Course> selectedCourses;
 	List<Course> registeredCourses;
 	List<Course> completedCourses;
+	
+	Map<Course, Integer> courseGrade;
 
 	public Student(int studentNumber, String studentName, boolean isFullTime) {
 		super();
@@ -31,6 +35,7 @@ public class Student implements StudentInt {
 		this.selectedCourses = new ArrayList<Course>();
 		this.registeredCourses = new ArrayList<Course>();
 		this.completedCourses = new ArrayList<Course>();
+		this.courseGrade = new HashMap<Course, Integer>();
 		
 		logger.info(String.format("Student Operation: Initialize student; student number: %d, student name: %s", this.studentNumber, this.studentName));
 	}
@@ -73,6 +78,14 @@ public class Student implements StudentInt {
 
 	public void setCompletedCourses(List<Course> completedCourses) {
 		this.completedCourses = completedCourses;
+	}
+	
+	public Map<Course, Integer> getCourseGrade() {
+		return courseGrade;
+	}
+	
+	public void setCourseGrade(Map<Course, Integer> courseGrade) {
+		this.courseGrade = courseGrade;
 	}
 
 	public void setFullTime(boolean isFullTime) {
@@ -182,6 +195,18 @@ public class Student implements StudentInt {
 		} else {
 			result = this.registeredCourses.remove(course);
 			logger.info(String.format("Student Operation: student %d deregister course %d; State: Success", this.StudentNumber(), course.Code()));
+		}
+		return result;
+	}
+	
+	public boolean FulfillCourse(Course course, int grade) {
+		boolean result = true;
+		if(!IsRegistered(course)||IsCompleted(course)) {
+			result = false;
+			logger.info(String.format("Student Operation: student %d fulfill course %d; State: Fail; Reason: student hasn't registered this course or student has completed this course", this.StudentNumber(), course.Code()));
+		} else {
+			result = ((this.registeredCourses.remove(course))&&(this.completedCourses.add(course)));
+			courseGrade.put(course, grade);
 		}
 		return result;
 	}

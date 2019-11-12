@@ -370,6 +370,23 @@ public class University implements UniversityInt {
 		}
 		return result;
 	}
+	
+	public boolean FulfillCourse(Student student, Course course, int grade) {
+		boolean result = true;
+		if(CheckCourse(course.Code()) && CheckStudent(student.StudentNumber()) && student.IsRegistered(course)) {
+			result = student.FulfillCourse(course, grade);
+			if(result) {
+				result = course.MarkStudent(student, grade);
+				logger.info(String.format("University Operation: student %d fulfill course %d; State: Success", student.StudentNumber(), course.Code()));
+			} else {
+				logger.info(String.format("University Operation: student %d fulfill course %d; State: Fail", student.StudentNumber(), course.Code()));
+			}
+		} else {
+			result = false;
+			logger.info(String.format("University Operation: student %d fulfill course %d; State: Fail; Reason: The student or course doesn't exist or the student hasn's registered the course", student.StudentNumber(), course.Code()));
+		}
+		return result;
+	}
 
 	
 	public boolean CancelCourse(Course course) {

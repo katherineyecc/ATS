@@ -32,6 +32,7 @@ public class Course implements CourseInt {
 	int weightOfFinal;
 	
 	Map<Student, Integer> enrollStudent;
+	Map<Student, Integer> studentGrade;
 
 	public Course(String title, int myCode, int capsize) {
 		super();
@@ -47,6 +48,7 @@ public class Course implements CourseInt {
 		this.hasAFinal = true;
 		this.weightOfFinal = 100;
 		this.enrollStudent = new HashMap<Student, Integer>();
+		this.studentGrade = new HashMap<Student, Integer>();
 		GenerateWeights();
 		logger.info(String.format("Course Operation: Initialize course; title: %s, myCode: %d", this.title, this.myCode));
 	}
@@ -67,6 +69,7 @@ public class Course implements CourseInt {
 		this.hasAFinal = hasAFinal;
 		this.weightOfFinal = 0;
 		this.enrollStudent = new HashMap<Student, Integer>();
+		this.studentGrade = new HashMap<Student, Integer>();
 		GenerateWeights();
 		logger.info(String.format("Course Operation: Initialize course; title: %s, myCode: %d", this.title, this.myCode));
 	}
@@ -165,6 +168,14 @@ public class Course implements CourseInt {
 
 	public void setEnrollStudent(Map<Student, Integer> enrollStudent) {
 		this.enrollStudent = enrollStudent;
+	}
+	
+	public Map<Student, Integer> getStudentGrade() {
+		return studentGrade;
+	}
+	
+	public void setStudentGrade(Map<Student, Integer> studentGrade) {
+		this.studentGrade = studentGrade;
 	}
 
 	public String toString(){
@@ -277,6 +288,20 @@ public class Course implements CourseInt {
 			}
 		}
 		logger.info(String.format("Course Operation: Remove student %d from course %d; State: Fail; Reason: The student has not registered.", student.StudentNumber(), this.myCode));
+		return false;
+	}
+	
+	public boolean MarkStudent(Student student, int grade) {
+		Iterator<Student> iterator = enrollStudent.keySet().iterator();
+		while(iterator.hasNext()) {
+			Student key = (Student)iterator.next();
+			if(student.equals(key)) {
+				studentGrade.put(key, grade);
+				logger.info(String.format("Course Operation: Mark student %d from course %d; State: Success", student.StudentNumber(), this.myCode));
+				return true;
+			}
+		}
+		logger.info(String.format("Course Operation: Mark student %d from course %d; State: Fail; Reason: The student has not registered.", student.StudentNumber(), this.myCode));
 		return false;
 	}
 	

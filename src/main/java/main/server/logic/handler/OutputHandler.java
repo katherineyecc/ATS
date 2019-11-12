@@ -26,6 +26,7 @@ public class OutputHandler {
 	public static final int REGISTERFORCOURSE = 12;
 	public static final int DROPCOURSE = 13;
 	public static final int DEREGISTERCOURSE = 14;
+	public static final int FULFILLCOURSE = 15;
 
 	public Output clerkLogin(String input) {
 		Output output = new Output("", 0);
@@ -69,7 +70,7 @@ public class OutputHandler {
 				result = University.getInstance().LookupStudent(
 						Integer.parseInt(number), name);
 				if (result) {
-					output.setOutput("What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.");
+					output.setOutput("What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.");
 					University.getInstance().setCurrentstudent(
 							Integer.parseInt(number));
 					output.setState(STUDENT);
@@ -543,6 +544,66 @@ public class OutputHandler {
 					output.setOutput("Unable to deregister from this course!");
 				}
 				output.setState(STUDENT);
+			}
+		}
+		return output;
+	}
+	
+	public Output fulfillCourse(String input) {
+		Output output = new Output("", 0);
+		String[] strArray = input.split(",");
+		boolean result = true;
+		/*
+		long current = System.currentTimeMillis();
+		int b = (int) ((current - StartServer.start) / (Config.STIMULATED_DAY) - Config.TERM_LASTS);
+		*/
+		if(strArray.length != 2) {
+			output.setOutput("Your input should be in this format: 'course number, grade'");
+			output.setState(STUDENTLOGIN);
+		} else {
+			if (Config.TERM_ENDS) {
+				output.setOutput("Term ends!");
+				output.setState(STUDENT);
+			} else if (!Config.REGISTRATION_STARTS) {
+				output.setOutput("Registration has not started!");
+				output.setState(STUDENT);
+			} else if (!Config.REGISTRATION_ENDS) {
+				output.setOutput("Course cannot be fulfilled before registration ends!");
+				output.setState(STUDENT);
+			} else {
+				String code = strArray[0].trim();
+				String grade = strArray[1].trim();
+				Pattern pattern = Pattern.compile("[0-9]*");
+				Matcher isNum = pattern.matcher(code);
+				if(input.replace(" ", "").equalsIgnoreCase("") || !isNum.matches()) {
+					output.setOutput("Your input items should be in correct format.");
+					output.setState(STUDENTLOGIN);
+				} else if(Integer.parseInt(strArray[0]) < 100000
+						||Integer.parseInt(strArray[0]) > 999999) {
+					output.setOutput("The Length of course code must be 6.");
+					output.setState(STUDENTLOGIN);
+				} else if (!University.getInstance().CheckCourse(
+						Integer.parseInt(code))) {
+					output.setOutput("The course does not exist!");
+					output.setState(STUDENTLOGIN);
+				} else if ((Integer.parseInt(grade) < 0) || (Integer.parseInt(grade) > 100)) {
+					output.setOutput("Your grade should be in the range of [0, 100].");
+					output.setState(STUDENTLOGIN);
+				} else {
+					int studentnumber = University.getInstance()
+							.getCurrentstudent();
+					Student student = University.getInstance().GetStudent(
+							studentnumber);
+					Course course = University.getInstance().GetCourse(
+							Integer.parseInt(code));
+					result = University.getInstance().FulfillCourse(student, course, Integer.parseInt(grade));
+					if (result) {
+						output.setOutput("Success!");
+					} else {
+						output.setOutput("Unable to fulfill this course!");
+					}
+					output.setState(STUDENT);
+				}
 			}
 		}
 		return output;

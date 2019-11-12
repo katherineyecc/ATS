@@ -26,6 +26,7 @@ public class InputHandler {
 	public static final int REGISTERFORCOURSE = 12;
 	public static final int DROPCOURSE = 13;
 	public static final int DEREGISTERCOURSE = 14;
+	public static final int FULFILLCOURSE = 15;
 
 	OutputHandler outputHandler = new OutputHandler();
 
@@ -206,13 +207,29 @@ public class InputHandler {
 				}
 				oo.setOutput(output);
 				oo.setState(state);
+			} else if (input.equalsIgnoreCase("fulfill course")) {
+				List<Course> availableCourses = new ArrayList<Course>(
+						student.getRegisteredCourses());
+				if(availableCourses.size() > 0) {
+					output = "Please Input Course Info and Grade: 'course code, grade'\nAvailable Course List: ";
+					for(int i = 0; i < availableCourses.size(); i++) {
+						output = output + "\n"
+								+ availableCourses.get(i).toString();
+					}
+					state = FULFILLCOURSE;
+				} else {
+					output = "No Available Courses!";
+					state = FULFILLCOURSE;
+				}
+				oo.setOutput(output);
+				oo.setState(state);
 			} else if (input.equalsIgnoreCase("log out")) {
 				output = "Successfully Log Out!";
 				state = WAITING;
 				oo.setOutput(output);
 				oo.setState(state);
 			} else if (input.equalsIgnoreCase("main menu")) {
-				output = "What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.";
+				output = "What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.";
 				state = STUDENT;
 				oo.setOutput(output);
 				oo.setState(state);
@@ -319,7 +336,7 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else if (input.equalsIgnoreCase("main menu")) {
-				output = "What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.";
+				output = "What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.";
 				state = STUDENT;
 				oo.setOutput(output);
 				oo.setState(state);
@@ -337,7 +354,7 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else if (input.equalsIgnoreCase("main menu")) {
-				output = "What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.";
+				output = "What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.";
 				state = STUDENT;
 				oo.setOutput(output);
 				oo.setState(state);
@@ -355,7 +372,7 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else if (input.equalsIgnoreCase("main menu")) {
-				output = "What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.";
+				output = "What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.";
 				state = STUDENT;
 				oo.setOutput(output);
 				oo.setState(state);
@@ -373,12 +390,30 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else if (input.equalsIgnoreCase("main menu")) {
-				output = "What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course.";
+				output = "What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.";
 				state = STUDENT;
 				oo.setOutput(output);
 				oo.setState(state);
 			} else {
 				o = outputHandler.deregisterCourse(input);
+				output = o.getOutput();
+				state = o.getState();
+				oo.setOutput(output);
+				oo.setState(state);
+			}
+		} else if (state == FULFILLCOURSE) {
+			if (input.equalsIgnoreCase("log out")) {
+				output = "Successfully Log Out!";
+				state = WAITING;
+				oo.setOutput(output);
+				oo.setState(state);
+			} else if (input.equalsIgnoreCase("main menu")) {
+				output = "What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.";
+				state = STUDENT;
+				oo.setOutput(output);
+				oo.setState(state);
+			} else {
+				o = outputHandler.fulfillCourse(input);
 				output = o.getOutput();
 				state = o.getState();
 				oo.setOutput(output);
