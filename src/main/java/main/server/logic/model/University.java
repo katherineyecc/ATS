@@ -117,9 +117,9 @@ public class University implements UniversityInt {
 	private void InitializeStudents() {
 		students.clear();
 		
-		int[] studentNumberList = new int[]{101075401, 101075402};
-		String[] studentNameList = new String[]{"tom","jack"};
-		boolean[] isFullTimeList = new boolean[]{true,false};
+		int[] studentNumberList = new int[]{101075401, 101075402, 101075404};
+		String[] studentNameList = new String[]{"tom","jack","james"};
+		boolean[] isFullTimeList = new boolean[]{true,false,true};
 		for(int i=0;i<studentNumberList.length;i++) {
 			Student s = new Student(studentNumberList[i], studentNameList[i], isFullTimeList[i]);
 			students.add(s);
