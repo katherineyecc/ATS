@@ -8,7 +8,7 @@ Feature: Title of your feature
   	
   	When Clerk enters "clerk" and password "admin1"
   	
-  	And Clerk enters "create course" and course info "OO Language, 105105, 30, n, 0, 3, n, n"
+  	And Clerk enters "create course" and course info "Python Language, 107105, 30, n, 0, 3, n, n"
   	
   	And Wait for registration ending
   	
