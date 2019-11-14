@@ -3922,4 +3922,78 @@ Available Course List:
 
 @2019-11-13 19:58:46 INFO  ATServer:107 - Output to 127.0.0.1:56598 Who Are you? Clerk or Student?
 
+@2019-11-13 20:40:26 INFO  ATServer:33 - Binding to port 5050
+@2019-11-13 20:40:26 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-13 20:40:26 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-13 20:40:26 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-13 20:40:26 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-13 20:40:26 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-13 20:40:26 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-13 20:40:26 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-13 20:40:26 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-13 20:40:26 INFO  String:115 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility]
+@2019-11-13 20:40:26 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-13 20:40:26 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-13 20:40:26 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-13 20:40:26 INFO  String:129 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-13 20:40:26 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility]
+@2019-11-13 20:40:26 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-13 20:40:26 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-13 20:40:35 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:56778] Client Socket: [56778 ]
+
+@2019-11-13 20:40:35 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-13 20:40:35 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__56778
+@2019-11-13 20:40:35 INFO  ATClient:32 - 56778 : Connected to server: /127.0.0.1
+@2019-11-13 20:40:35 INFO  ATClient:33 - 56778 : Connected to portid: 56778
+@2019-11-13 20:40:41 INFO  ATServer:98 - Input from 127.0.0.1:56778 
+@2019-11-13 20:40:41 INFO  ATServer:115 - Output to 127.0.0.1:56778 Who Are you? Clerk or Student?
+
+@2019-11-13 20:40:42 INFO  ATServer:98 - Input from 127.0.0.1:56778 student
+@2019-11-13 20:40:42 INFO  ATServer:107 - Output to 127.0.0.1:56778 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-13 20:40:45 INFO  ATServer:98 - Input from 127.0.0.1:56778 101075401, tom
+@2019-11-13 20:40:45 INFO  String:257 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-13 20:40:45 INFO  ATServer:107 - Output to 127.0.0.1:56778 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-13 20:40:48 INFO  ATServer:98 - Input from 127.0.0.1:56778 select course
+@2019-11-13 20:40:48 INFO  String:184 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-13 20:40:48 INFO  ATServer:107 - Output to 127.0.0.1:56778 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+
+@2019-11-13 20:40:50 INFO  ATServer:98 - Input from 127.0.0.1:56778 108108
+@2019-11-13 20:40:50 INFO  String:215 - University Operation: Check course; Course info: 108108; State: Success
+@2019-11-13 20:40:50 INFO  String:184 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-13 20:40:50 INFO  String:197 - University Operation: Get course; Course info: 108108; State: Success
+@2019-11-13 20:40:50 INFO  String:222 - Student Operation: student 101075401 has not selected course 108108;
+@2019-11-13 20:40:50 INFO  String:232 - Student Operation: student 101075401 has not registered for course 108108;
+@2019-11-13 20:40:50 INFO  String:242 - Student Operation: student 101075401 has not completed course 108108;
+@2019-11-13 20:40:50 INFO  String:148 - Student Operation: student 101075401 select course 108108; State: Success
+@2019-11-13 20:40:50 INFO  ATServer:107 - Output to 127.0.0.1:56778 Success!
+
+@2019-11-13 20:40:54 INFO  ATServer:98 - Input from 127.0.0.1:56778 register for course
+@2019-11-13 20:40:54 INFO  String:184 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-13 20:40:54 INFO  ATServer:107 - Output to 127.0.0.1:56778 Please Input Course Info: 'course code'
+Available Course List: 
+108108, Network Mobility
+
+@2019-11-13 20:41:10 INFO  ATServer:98 - Input from 127.0.0.1:56778 108108
+@2019-11-13 20:41:10 INFO  String:215 - University Operation: Check course; Course info: 108108; State: Success
+@2019-11-13 20:41:10 INFO  String:184 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-13 20:41:10 INFO  String:197 - University Operation: Get course; Course info: 108108; State: Success
+@2019-11-13 20:41:10 INFO  String:215 - University Operation: Check course; Course info: 108108; State: Success
+@2019-11-13 20:41:10 INFO  String:235 - University Operation: Check student; Student info: 101075401; State: Success
+@2019-11-13 20:41:10 INFO  String:219 - Student Operation: student 101075401 has selected course 108108;
+@2019-11-13 20:41:10 INFO  String:219 - Student Operation: student 101075401 has selected course 108108;
+@2019-11-13 20:41:10 INFO  String:232 - Student Operation: student 101075401 has not registered for course 108108;
+@2019-11-13 20:41:10 INFO  String:242 - Student Operation: student 101075401 has not completed course 108108;
+@2019-11-13 20:41:10 INFO  String:168 - Student Operation: student 101075401 register course 108108; State: Fail; Reason: the course is full
+@2019-11-13 20:41:10 INFO  String:348 - University Operation: student 101075401 register course 108108; State: Fail; Reason: The course registered has reached the maximum number.
+@2019-11-13 20:41:10 INFO  ATServer:107 - Output to 127.0.0.1:56778 Unable to register for this course!
+
 @
