@@ -163,6 +163,9 @@ public class Student implements StudentInt {
 		} else if(!isFullTime&&registeredCourses.size()>=University.maxCourseForPTStudent) {
 			result = false;
 			logger.info(String.format("Student Operation: student %d register course %d; State: Fail; Reason: over registered", this.StudentNumber(), course.Code()));
+		} else if(course.IsFull()==true) {
+			result = false;
+			logger.info(String.format("Student Operation: student %d register course %d; State: Fail; Reason: the course is full", this.getStudentNumber(), course.Code()));
 		} else {
 			result = this.selectedCourses.remove(course);
 			result = this.registeredCourses.add(course);
