@@ -18,8 +18,11 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 
 public class StepDefUC1 extends TestCase {
-	ATClient atc;
+	
+	ATServer ats;
 	String msg = "Exit";
+	Robot robot;
+	boolean success = false;
 
 	@Given("^The ATS server is on$")
 	public void the_ATS_server_is_on(){
@@ -28,19 +31,38 @@ public class StepDefUC1 extends TestCase {
 
 	@When("^The Clerk open the client terminal and enter Exit$")
 	public void the_Clerk_open_the_client_terminal_and_enter_Exit() {
+		ats = new ATServer(Config.DEFAULT_PORT);
+		Thread t = new Thread(ats);
+		t.start();
+		try {
+			robot = new Robot();
+			robot.delay(5000);
+			for(int index=0; index<msg.length(); index++) {
+				char c = msg.charAt(index);
+				robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(c));
+				robot.delay(200);
+			}
+			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.delay(200);
+		} catch (AWTException e) {
+			e.printStackTrace();
+		}
+		int state = ats.getClientState();
+		System.out.println(state);
+		if(state == 0) {//2 is state WAITING
+			success = true;
+		}
+		ats = null;
+		robot = null;
 	}
 
 	@Then("^The Clerk exit the system$")
 	public void the_Clerk_exit_the_system() {
-		atc = new ATClient(Config.DEFAULT_HOST, Config.DEFAULT_PORT);
-		atc.handle(msg);
-		assertEquals(true, atc.getIsStop());
+		assertEquals(true, success);
 	}
 	
-	ATClient atc2;
-	ATServer ats;
-	Robot robot;
-	boolean success = false;
+	
 	@When("^The Clerk input \"([^\"]*)\" and password \"([^\"]*)\"$")
 	public void the_Clerk_input_and_password(String arg1, String arg2) throws AWTException {
 		ats = new ATServer(Config.DEFAULT_PORT);
@@ -76,7 +98,6 @@ public class StepDefUC1 extends TestCase {
 			success = true;
 		}
 		ats = null;
-		atc2 = null;
 		robot = null;
 	}
 
@@ -128,7 +149,6 @@ public class StepDefUC1 extends TestCase {
 			success = true;
 		}
 		ats = null;
-		atc2 = null;
 		robot = null;
 	}
 	
@@ -175,7 +195,6 @@ public class StepDefUC1 extends TestCase {
 			success = true;
 		}
 		ats = null;
-		atc2 = null;
 		robot = null;
 	}
 }

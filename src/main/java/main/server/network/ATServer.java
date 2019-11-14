@@ -83,7 +83,7 @@ public class ATServer implements Runnable {
 	}
 	
 	public synchronized void handle(int ID, String input) {
-		if (input.equals("Exit")) 
+		if (input.equals("exit")) 
 		{
 			logger.info(String.format("Client: %d Exits", ID));
 			if (clients.containsKey(ID)) {

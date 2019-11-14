@@ -89,7 +89,7 @@ public class ATClient implements Runnable {
 	}
 
 	public void handle(String msg) {
-		if (msg.equalsIgnoreCase("Exit")) {
+		if (msg.equalsIgnoreCase("exit")) {
 			System.out.println("Good bye.");
 			stop();
 			isStop = true;
