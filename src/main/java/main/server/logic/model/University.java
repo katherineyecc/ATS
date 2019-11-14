@@ -106,12 +106,14 @@ public class University implements UniversityInt {
 		Course c4 = new Course("Advanced Database Systems", 105305, 30, false, 2, 2, true);
 		Course c5 = new Course("Foundations of Programming Languages", 105001, 30, false, 1, 3, true);
 		Course c6 = new Course("Network Mobility", 108108, 0, false, 1, 3, true);
+		Course c7 = new Course("Discrete Mathematics", 108109, 1, false, 1, 3, true);//only use for testing 2 concurrent student register for the last place
 		courses.add(c1);
 		courses.add(c2);
 		courses.add(c3);
 		courses.add(c4);
 		courses.add(c5);
 		courses.add(c6);
+		courses.add(c7);
 		logger.info(String.format("University Operation: Initialize course list; courses: %s", courses));
 		
 	}
