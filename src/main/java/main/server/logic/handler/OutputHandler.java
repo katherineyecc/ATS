@@ -27,6 +27,12 @@ public class OutputHandler {
 	public static final int DROPCOURSE = 13;
 	public static final int DEREGISTERCOURSE = 14;
 	public static final int FULFILLCOURSE = 15;
+	
+	private int currentStudent;
+	
+	public void setCurrentStudent(int cs) {
+		currentStudent = cs;
+	}
 
 	public Output clerkLogin(String input) {
 		Output output = new Output("", 0);
@@ -71,8 +77,8 @@ public class OutputHandler {
 						Integer.parseInt(number), name);
 				if (result) {
 					output.setOutput("What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.");
-					University.getInstance().setCurrentstudent(
-							Integer.parseInt(number));
+					/*University.getInstance().setCurrentstudent(
+							Integer.parseInt(number));*/
 					output.setState(STUDENT);
 				} else {
 					output.setOutput("Invalid student number or student name.");
@@ -388,7 +394,8 @@ public class OutputHandler {
 			output.setOutput("The course does not exist!");
 			output.setState(SELECTCOURSE);
 		} else {
-			int studentnumber = University.getInstance().getCurrentstudent();
+			//int studentnumber = University.getInstance().getCurrentstudent();
+			int studentnumber = currentStudent;
 			Student student = (Student) University.getInstance().GetStudent(
 					studentnumber);
 			result = student.SelectCourse(University.getInstance().GetCourse(
@@ -436,8 +443,8 @@ public class OutputHandler {
 				output.setOutput("The course does not exist!");
 				output.setState(REGISTERFORCOURSE);
 			} else {
-				int studentnumber = University.getInstance()
-						.getCurrentstudent();
+				//int studentnumber = University.getInstance().getCurrentstudent();
+				int studentnumber = currentStudent;
 				Student student = University.getInstance().GetStudent(
 						studentnumber);
 				Course course = University.getInstance().GetCourse(
@@ -483,7 +490,8 @@ public class OutputHandler {
 			output.setOutput("The course does not exist!");
 			output.setState(DROPCOURSE);
 		} else {
-			int studentnumber = University.getInstance().getCurrentstudent();
+			//int studentnumber = University.getInstance().getCurrentstudent();
+			int studentnumber = currentStudent;
 			Student student = (Student) University.getInstance().GetStudent(
 					studentnumber);
 			result = student.DropCourse(University.getInstance().GetCourse(
@@ -530,8 +538,8 @@ public class OutputHandler {
 				output.setOutput("The course does not exist!");
 				output.setState(DEREGISTERCOURSE);
 			} else {
-				int studentnumber = University.getInstance()
-						.getCurrentstudent();
+				//int studentnumber = University.getInstance().getCurrentstudent();
+				int studentnumber = currentStudent;
 				Student student = University.getInstance().GetStudent(
 						studentnumber);
 				Course course = University.getInstance().GetCourse(
@@ -590,8 +598,8 @@ public class OutputHandler {
 					output.setOutput("Your grade should be in the range of [0, 100].");
 					output.setState(STUDENTLOGIN);
 				} else {
-					int studentnumber = University.getInstance()
-							.getCurrentstudent();
+					//int studentnumber = University.getInstance().getCurrentstudent();
+					int studentnumber = currentStudent;
 					Student student = University.getInstance().GetStudent(
 							studentnumber);
 					Course course = University.getInstance().GetCourse(

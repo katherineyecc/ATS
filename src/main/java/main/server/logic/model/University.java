@@ -23,7 +23,7 @@ public class University implements UniversityInt {
 	List<Course> courses = new ArrayList<Course>();
 	List<Student> students = new ArrayList<Student>();
 	
-	static int currentstudent;
+	//static int currentstudent;
 	
 	static Timer timer_registrationstarts;
 	static Timer timer_registrationends;
@@ -156,6 +156,7 @@ public class University implements UniversityInt {
 		this.students = students;
 	}
 
+	/*
 	public int getCurrentstudent() {
 		return currentstudent;
 	}
@@ -163,7 +164,7 @@ public class University implements UniversityInt {
 	public void setCurrentstudent(int currentstudent) {
 		University.currentstudent = currentstudent;
 	}
-
+	*/
 	
 	public List<Course> Courses() {
 		// TODO Auto-generated method stub

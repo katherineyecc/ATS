@@ -26,6 +26,7 @@ public class ATServer implements Runnable {
 	InputHandler handler=new InputHandler();
 	private List<Client> clientList=new ArrayList<Client>();
 	public String output = null;
+	public int currentStudent;
 	
 	public ATServer(int port) {
 		
@@ -100,6 +101,17 @@ public class ATServer implements Runnable {
 			//String output;
 			if(exist(from)){
 				int state=clientState(from);
+				if(state == 5) { // STUDENTLOGIN
+					if(from.getCurrentStudent() == -1) {
+					String[] strArray = null;
+					strArray = input.split(",");
+					currentStudent = Integer.parseInt(strArray[0]);
+					from.setCurrentStudent(currentStudent);
+					}
+				} else if(state == 4 || state == 11 || state == 12 || state == 13 || state == 14 || state == 15) { 
+					handler.setCurrentStudent(from.getCurrentStudent());
+					logger.info(String.format("Now operating thread: %d,%d"+" ",from.getID(), from.getCurrentStudent()));
+				}
 				so=handler.processInput(input,state);
 				output=so.getOutput()+"\n";
 				from.send(output);

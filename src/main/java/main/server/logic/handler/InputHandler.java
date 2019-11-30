@@ -29,6 +29,8 @@ public class InputHandler {
 	public static final int FULFILLCOURSE = 15;
 
 	OutputHandler outputHandler = new OutputHandler();
+	
+	private int currentStudent;
 
 	public ServerOutput processInput(String input, int state) {
 		String output = "";
@@ -135,7 +137,8 @@ public class InputHandler {
 				oo.setState(state);
 			}
 		} else if (state == STUDENT) {
-			int studentnumber = University.getInstance().getCurrentstudent();
+			int studentnumber = currentStudent;
+			this.setOutputHandlerCurrentStudent(currentStudent);
 			Student student = (Student) University.getInstance().GetStudent(
 					studentnumber);
 			if (input.equalsIgnoreCase("select course")) {
@@ -341,7 +344,9 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else {
+				this.setOutputHandlerCurrentStudent(currentStudent);
 				o = outputHandler.selectCourse(input);
+				
 				output = o.getOutput();
 				state = o.getState();
 				oo.setOutput(output);
@@ -359,7 +364,9 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else {
+				this.setOutputHandlerCurrentStudent(currentStudent);
 				o = outputHandler.registerforCourse(input);
+				
 				output = o.getOutput();
 				state = o.getState();
 				oo.setOutput(output);
@@ -377,7 +384,9 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else {
+				this.setOutputHandlerCurrentStudent(currentStudent);
 				o = outputHandler.dropCourse(input);
+				
 				output = o.getOutput();
 				state = o.getState();
 				oo.setOutput(output);
@@ -395,7 +404,9 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else {
+				this.setOutputHandlerCurrentStudent(currentStudent);
 				o = outputHandler.deregisterCourse(input);
+				
 				output = o.getOutput();
 				state = o.getState();
 				oo.setOutput(output);
@@ -413,7 +424,9 @@ public class InputHandler {
 				oo.setOutput(output);
 				oo.setState(state);
 			} else {
+				this.setOutputHandlerCurrentStudent(currentStudent);
 				o = outputHandler.fulfillCourse(input);
+				
 				output = o.getOutput();
 				state = o.getState();
 				oo.setOutput(output);
@@ -421,6 +434,14 @@ public class InputHandler {
 			}
 		}
 		return oo;
+	}
+	
+	public void setCurrentStudent(int cs) {
+		currentStudent = cs;
+	}
+	
+	public void setOutputHandlerCurrentStudent(int cs) {
+		outputHandler.setCurrentStudent(cs);
 	}
 
 }

@@ -5018,4 +5018,2301 @@ Available Course List:
 @2019-11-14 09:15:02 INFO  ATClient:33 - 59560 : Connected to portid: 59560
 @2019-11-14 09:15:07 INFO  ATServer:88 - Client: 59560 Exits
 @2019-11-14 09:15:07 INFO  ATServer:92 - Client : 59560Exits
+@2019-11-14 09:16:15 INFO  ATServer:33 - Binding to port 5050
+@2019-11-14 09:16:15 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:16:15 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-14 09:16:15 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-14 09:16:15 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-14 09:16:15 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-14 09:16:15 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-14 09:16:15 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-14 09:16:15 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-14 09:16:15 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-14 09:16:15 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:16:15 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-14 09:16:15 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-14 09:16:15 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-14 09:16:15 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:16:15 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:16:15 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:16:15 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:16:22 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:59565] Client Socket: [59565 ]
+
+@2019-11-14 09:16:22 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:16:22 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__59565
+@2019-11-14 09:16:22 INFO  ATClient:32 - 59565 : Connected to server: /127.0.0.1
+@2019-11-14 09:16:22 INFO  ATClient:33 - 59565 : Connected to portid: 59565
+@2019-11-14 09:16:27 INFO  ATServer:88 - Client: 59565 Exits
+@2019-11-14 09:16:27 INFO  ATServer:92 - Client : 59565Exits
+@2019-11-14 09:18:03 INFO  ATServer:33 - Binding to port 5050
+@2019-11-14 09:18:03 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:18:03 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-14 09:18:03 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-14 09:18:03 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-14 09:18:03 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-14 09:18:03 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-14 09:18:03 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-14 09:18:03 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-14 09:18:03 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-14 09:18:03 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:18:03 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-14 09:18:03 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-14 09:18:03 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-14 09:18:03 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:18:03 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:18:03 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:18:03 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:18:10 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:59570] Client Socket: [59570 ]
+
+@2019-11-14 09:18:10 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:18:10 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__59570
+@2019-11-14 09:18:10 INFO  ATClient:32 - 59570 : Connected to server: /127.0.0.1
+@2019-11-14 09:18:10 INFO  ATClient:33 - 59570 : Connected to portid: 59570
+@2019-11-14 09:18:43 INFO  ATServer:33 - Binding to port 5050
+@2019-11-14 09:18:43 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:18:43 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-14 09:18:43 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-14 09:18:43 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-14 09:18:43 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-14 09:18:43 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-14 09:18:43 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-14 09:18:43 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-14 09:18:43 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-14 09:18:43 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:18:43 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-14 09:18:43 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-14 09:18:43 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-14 09:18:43 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:18:43 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:18:43 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:18:43 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:18:49 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:59572] Client Socket: [59572 ]
+
+@2019-11-14 09:18:49 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:18:49 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__59572
+@2019-11-14 09:18:49 INFO  ATClient:32 - 59572 : Connected to server: /127.0.0.1
+@2019-11-14 09:18:49 INFO  ATClient:33 - 59572 : Connected to portid: 59572
+@2019-11-14 09:18:53 INFO  ATServer:98 - Input from 127.0.0.1:59572 
+@2019-11-14 09:18:53 INFO  ATServer:115 - Output to 127.0.0.1:59572 Who Are you? Clerk or Student?
+
+@2019-11-14 09:18:55 INFO  ATServer:98 - Input from 127.0.0.1:59572 student
+@2019-11-14 09:18:55 INFO  ATServer:107 - Output to 127.0.0.1:59572 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-14 09:18:58 INFO  ATServer:98 - Input from 127.0.0.1:59572 101075401, tom
+@2019-11-14 09:18:58 INFO  String:259 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-14 09:18:58 INFO  ATServer:107 - Output to 127.0.0.1:59572 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-14 09:19:01 INFO  ATServer:98 - Input from 127.0.0.1:59572 select course
+@2019-11-14 09:19:01 INFO  String:186 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-14 09:19:01 INFO  ATServer:107 - Output to 127.0.0.1:59572 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-14 09:19:02 INFO  ATServer:98 - Input from 127.0.0.1:59572 105104
+@2019-11-14 09:19:02 INFO  String:217 - University Operation: Check course; Course info: 105104; State: Success
+@2019-11-14 09:19:02 INFO  String:186 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-14 09:19:02 INFO  String:199 - University Operation: Get course; Course info: 105104; State: Success
+@2019-11-14 09:19:02 INFO  String:222 - Student Operation: student 101075401 has not selected course 105104;
+@2019-11-14 09:19:02 INFO  String:232 - Student Operation: student 101075401 has not registered for course 105104;
+@2019-11-14 09:19:02 INFO  String:242 - Student Operation: student 101075401 has not completed course 105104;
+@2019-11-14 09:19:02 INFO  String:148 - Student Operation: student 101075401 select course 105104; State: Success
+@2019-11-14 09:19:02 INFO  ATServer:107 - Output to 127.0.0.1:59572 Success!
+
+@2019-11-14 09:19:06 INFO  ATServer:98 - Input from 127.0.0.1:59572 register for course
+@2019-11-14 09:19:06 INFO  String:186 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-14 09:19:06 INFO  ATServer:107 - Output to 127.0.0.1:59572 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+
+@2019-11-14 09:19:08 INFO  ATServer:98 - Input from 127.0.0.1:59572 105104
+@2019-11-14 09:19:08 INFO  ATServer:107 - Output to 127.0.0.1:59572 Registration has not started!
+
+@2019-11-14 09:19:11 INFO  ATServer:98 - Input from 127.0.0.1:59572 deregister course
+@2019-11-14 09:19:11 INFO  String:186 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-14 09:19:11 INFO  ATServer:107 - Output to 127.0.0.1:59572 No Available Courses!
+
+@2019-11-14 09:19:13 INFO  ATServer:98 - Input from 127.0.0.1:59572 105104
+@2019-11-14 09:19:13 INFO  ATServer:107 - Output to 127.0.0.1:59572 Registration has not started!
+
+@2019-11-14 09:19:55 INFO  ATServer:33 - Binding to port 5050
+@2019-11-14 09:19:55 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:19:55 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-14 09:19:55 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-14 09:19:55 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-14 09:19:55 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-14 09:19:55 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-14 09:19:55 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-14 09:19:55 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-14 09:19:55 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-14 09:19:55 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:19:55 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-14 09:19:55 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-14 09:19:55 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-14 09:19:55 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:19:55 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:19:55 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:19:55 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:20:02 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:59578] Client Socket: [59578 ]
+
+@2019-11-14 09:20:02 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:20:02 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__59578
+@2019-11-14 09:20:02 INFO  ATClient:32 - 59578 : Connected to server: /127.0.0.1
+@2019-11-14 09:20:02 INFO  ATClient:33 - 59578 : Connected to portid: 59578
+@2019-11-14 09:20:09 INFO  ATServer:98 - Input from 127.0.0.1:59578 
+@2019-11-14 09:20:09 INFO  ATServer:115 - Output to 127.0.0.1:59578 Who Are you? Clerk or Student?
+
+@2019-11-14 09:20:10 INFO  ATServer:98 - Input from 127.0.0.1:59578 student
+@2019-11-14 09:20:10 INFO  ATServer:107 - Output to 127.0.0.1:59578 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-14 09:20:13 INFO  ATServer:98 - Input from 127.0.0.1:59578 101075401, tom
+@2019-11-14 09:20:13 INFO  String:259 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-14 09:20:13 INFO  ATServer:107 - Output to 127.0.0.1:59578 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-14 09:20:16 INFO  ATServer:98 - Input from 127.0.0.1:59578 select course
+@2019-11-14 09:20:16 INFO  String:186 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-14 09:20:16 INFO  ATServer:107 - Output to 127.0.0.1:59578 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-14 09:20:18 INFO  ATServer:98 - Input from 127.0.0.1:59578 105104
+@2019-11-14 09:20:18 INFO  String:217 - University Operation: Check course; Course info: 105104; State: Success
+@2019-11-14 09:20:18 INFO  String:186 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-14 09:20:18 INFO  String:199 - University Operation: Get course; Course info: 105104; State: Success
+@2019-11-14 09:20:18 INFO  String:222 - Student Operation: student 101075401 has not selected course 105104;
+@2019-11-14 09:20:18 INFO  String:232 - Student Operation: student 101075401 has not registered for course 105104;
+@2019-11-14 09:20:18 INFO  String:242 - Student Operation: student 101075401 has not completed course 105104;
+@2019-11-14 09:20:18 INFO  String:148 - Student Operation: student 101075401 select course 105104; State: Success
+@2019-11-14 09:20:18 INFO  ATServer:107 - Output to 127.0.0.1:59578 Success!
+
+@2019-11-14 09:20:20 INFO  ATServer:98 - Input from 127.0.0.1:59578 drop course
+@2019-11-14 09:20:20 INFO  String:186 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-14 09:20:20 INFO  ATServer:107 - Output to 127.0.0.1:59578 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+
+@2019-11-14 09:20:21 INFO  ATServer:98 - Input from 127.0.0.1:59578 123
+@2019-11-14 09:20:21 INFO  ATServer:107 - Output to 127.0.0.1:59578 Course cannot be dropped before registration starts!
+
+@2019-11-14 09:20:52 INFO  ATServer:33 - Binding to port 5050
+@2019-11-14 09:20:52 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:20:52 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-14 09:20:52 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-14 09:20:52 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-14 09:20:52 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-14 09:20:52 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-14 09:20:52 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-14 09:20:52 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-14 09:20:52 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-14 09:20:52 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:20:52 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-14 09:20:52 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-14 09:20:52 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-14 09:20:52 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:20:52 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:20:52 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:20:52 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:20:59 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:59581] Client Socket: [59581 ]
+
+@2019-11-14 09:20:59 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:20:59 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__59581
+@2019-11-14 09:20:59 INFO  ATClient:32 - 59581 : Connected to server: /127.0.0.1
+@2019-11-14 09:20:59 INFO  ATClient:33 - 59581 : Connected to portid: 59581
+@2019-11-14 09:21:06 INFO  ATServer:98 - Input from 127.0.0.1:59581 
+@2019-11-14 09:21:06 INFO  ATServer:115 - Output to 127.0.0.1:59581 Who Are you? Clerk or Student?
+
+@2019-11-14 09:21:07 INFO  ATServer:98 - Input from 127.0.0.1:59581 student
+@2019-11-14 09:21:07 INFO  ATServer:107 - Output to 127.0.0.1:59581 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-14 09:21:10 INFO  ATServer:98 - Input from 127.0.0.1:59581 101075401, tom
+@2019-11-14 09:21:10 INFO  String:259 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-14 09:21:10 INFO  ATServer:107 - Output to 127.0.0.1:59581 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-14 09:21:13 INFO  ATServer:98 - Input from 127.0.0.1:59581 select course
+@2019-11-14 09:21:13 INFO  String:186 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-14 09:21:13 INFO  ATServer:107 - Output to 127.0.0.1:59581 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-14 09:21:15 INFO  ATServer:98 - Input from 127.0.0.1:59581 105104
+@2019-11-14 09:21:15 INFO  String:217 - University Operation: Check course; Course info: 105104; State: Success
+@2019-11-14 09:21:15 INFO  String:186 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-14 09:21:15 INFO  String:199 - University Operation: Get course; Course info: 105104; State: Success
+@2019-11-14 09:21:15 INFO  String:222 - Student Operation: student 101075401 has not selected course 105104;
+@2019-11-14 09:21:15 INFO  String:232 - Student Operation: student 101075401 has not registered for course 105104;
+@2019-11-14 09:21:15 INFO  String:242 - Student Operation: student 101075401 has not completed course 105104;
+@2019-11-14 09:21:15 INFO  String:148 - Student Operation: student 101075401 select course 105104; State: Success
+@2019-11-14 09:21:15 INFO  ATServer:107 - Output to 127.0.0.1:59581 Success!
+
+@2019-11-14 09:21:17 INFO  ATServer:98 - Input from 127.0.0.1:59581 drop course
+@2019-11-14 09:21:17 INFO  String:186 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-14 09:21:17 INFO  ATServer:107 - Output to 127.0.0.1:59581 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+
+@2019-11-14 09:21:18 INFO  ATServer:98 - Input from 127.0.0.1:59581 123
+@2019-11-14 09:21:18 INFO  ATServer:107 - Output to 127.0.0.1:59581 The length of course code must be 6.
+
+@2019-11-14 09:22:21 INFO  ATServer:33 - Binding to port 5050
+@2019-11-14 09:22:21 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:22:21 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-14 09:22:21 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-14 09:22:21 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-14 09:22:21 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-14 09:22:21 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-14 09:22:21 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-14 09:22:21 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-14 09:22:21 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-14 09:22:21 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:22:21 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-14 09:22:21 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-14 09:22:21 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-14 09:22:21 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:22:21 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:22:21 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:22:21 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:22:27 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:59585] Client Socket: [59585 ]
+
+@2019-11-14 09:22:27 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:22:27 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__59585
+@2019-11-14 09:22:27 INFO  ATClient:32 - 59585 : Connected to server: /127.0.0.1
+@2019-11-14 09:22:27 INFO  ATClient:33 - 59585 : Connected to portid: 59585
+@2019-11-14 09:22:34 INFO  ATServer:98 - Input from 127.0.0.1:59585 
+@2019-11-14 09:22:34 INFO  ATServer:115 - Output to 127.0.0.1:59585 Who Are you? Clerk or Student?
+
+@2019-11-14 09:22:36 INFO  ATServer:98 - Input from 127.0.0.1:59585 clerk
+@2019-11-14 09:22:36 INFO  ATServer:107 - Output to 127.0.0.1:59585 Please Input The Password:
+
+@2019-11-14 09:22:37 INFO  ATServer:98 - Input from 127.0.0.1:59585 admin1
+@2019-11-14 09:22:37 INFO  ATServer:107 - Output to 127.0.0.1:59585 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:22:39 INFO  ATServer:98 - Input from 127.0.0.1:59585 log out
+@2019-11-14 09:22:39 INFO  ATServer:107 - Output to 127.0.0.1:59585 Successfully Log Out!
+
+@2019-11-14 09:23:32 INFO  ATServer:33 - Binding to port 5050
+@2019-11-14 09:23:32 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:23:32 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-14 09:23:32 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-14 09:23:32 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-14 09:23:32 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-14 09:23:32 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-14 09:23:32 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-14 09:23:32 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-14 09:23:32 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-14 09:23:32 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:23:32 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-14 09:23:32 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-14 09:23:32 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-14 09:23:32 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:23:32 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:23:32 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:23:32 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:23:53 INFO  ATServer:33 - Binding to port 5050
+@2019-11-14 09:23:53 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:23:53 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-14 09:23:53 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-14 09:23:53 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-14 09:23:53 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-14 09:23:53 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-14 09:23:53 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-14 09:23:53 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-14 09:23:53 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-14 09:23:53 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:23:53 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-14 09:23:53 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-14 09:23:53 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-14 09:23:53 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:23:53 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:23:53 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:23:53 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:24:00 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:59586] Client Socket: [59586 ]
+
+@2019-11-14 09:24:00 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:24:00 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__59586
+@2019-11-14 09:24:00 INFO  ATClient:32 - 59586 : Connected to server: /127.0.0.1
+@2019-11-14 09:24:00 INFO  ATClient:33 - 59586 : Connected to portid: 59586
+@2019-11-14 09:24:07 INFO  ATServer:98 - Input from 127.0.0.1:59586 
+@2019-11-14 09:24:07 INFO  ATServer:115 - Output to 127.0.0.1:59586 Who Are you? Clerk or Student?
+
+@2019-11-14 09:24:08 INFO  ATServer:98 - Input from 127.0.0.1:59586 clerk
+@2019-11-14 09:24:08 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please Input The Password:
+
+@2019-11-14 09:24:09 INFO  ATServer:98 - Input from 127.0.0.1:59586 admin2
+@2019-11-14 09:24:09 INFO  ATServer:107 - Output to 127.0.0.1:59586 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:12 INFO  ATServer:98 - Input from 127.0.0.1:59586 create course
+@2019-11-14 09:24:12 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please Input Course Info: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'
+
+@2019-11-14 09:24:21 INFO  ATServer:98 - Input from 127.0.0.1:59586 machine learning, 108105, 30, n, 0, 3, n, n
+@2019-11-14 09:24:21 INFO  String:220 - University Operation: Check course; Course info: 108105; State: Fail
+@2019-11-14 09:24:21 INFO  String:74 - Course Operation: Initialize course; title: machine learning, myCode: 108105
+@2019-11-14 09:24:21 INFO  String:288 - University Operation: Create new course; Course info: [machine learning,108105]; State: Success
+@2019-11-14 09:24:21 INFO  ATServer:107 - Output to 127.0.0.1:59586 Success!
+
+@2019-11-14 09:24:27 INFO  ATServer:98 - Input from 127.0.0.1:59586 
+@2019-11-14 09:24:27 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:28 INFO  ATServer:98 - Input from 127.0.0.1:59586 student
+@2019-11-14 09:24:28 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:31 INFO  ATServer:98 - Input from 127.0.0.1:59586 101075402, jack
+@2019-11-14 09:24:31 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:34 INFO  ATServer:98 - Input from 127.0.0.1:59586 select course
+@2019-11-14 09:24:34 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:36 INFO  ATServer:98 - Input from 127.0.0.1:59586 108105
+@2019-11-14 09:24:36 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:40 INFO  ATServer:98 - Input from 127.0.0.1:59586 register for course
+@2019-11-14 09:24:40 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:42 INFO  ATServer:98 - Input from 127.0.0.1:59586 108105
+@2019-11-14 09:24:42 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:24:52 INFO  ATServer:98 - Input from 127.0.0.1:59586 null
+@2019-11-14 09:24:52 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2019-11-14 09:24:52 INFO  ATServer:107 - Output to 127.0.0.1:59586 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:36:34 INFO  ATServer:33 - Binding to port 5050
+@2019-11-14 09:36:34 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:36:34 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-14 09:36:34 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-14 09:36:34 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-14 09:36:34 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-14 09:36:34 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-14 09:36:34 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-14 09:36:34 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-14 09:36:34 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-14 09:36:34 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:36:34 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-14 09:36:34 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-14 09:36:34 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-14 09:36:34 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:36:34 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:36:34 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:36:34 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:36:41 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:59601] Client Socket: [59601 ]
+
+@2019-11-14 09:36:41 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:36:41 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__59601
+@2019-11-14 09:36:41 INFO  ATClient:32 - 59601 : Connected to server: /127.0.0.1
+@2019-11-14 09:36:41 INFO  ATClient:33 - 59601 : Connected to portid: 59601
+@2019-11-14 09:36:48 INFO  ATServer:98 - Input from 127.0.0.1:59601 
+@2019-11-14 09:36:48 INFO  ATServer:115 - Output to 127.0.0.1:59601 Who Are you? Clerk or Student?
+
+@2019-11-14 09:36:49 INFO  ATServer:98 - Input from 127.0.0.1:59601 clerk
+@2019-11-14 09:36:49 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please Input The Password:
+
+@2019-11-14 09:36:51 INFO  ATServer:98 - Input from 127.0.0.1:59601 admin2
+@2019-11-14 09:36:51 INFO  ATServer:107 - Output to 127.0.0.1:59601 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:36:54 INFO  ATServer:98 - Input from 127.0.0.1:59601 create course
+@2019-11-14 09:36:54 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please Input Course Info: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'
+
+@2019-11-14 09:37:03 INFO  ATServer:98 - Input from 127.0.0.1:59601 machine learning, 108105, 30, n, 0, 3, n, n
+@2019-11-14 09:37:03 INFO  String:220 - University Operation: Check course; Course info: 108105; State: Fail
+@2019-11-14 09:37:03 INFO  String:74 - Course Operation: Initialize course; title: machine learning, myCode: 108105
+@2019-11-14 09:37:03 INFO  String:288 - University Operation: Create new course; Course info: [machine learning,108105]; State: Success
+@2019-11-14 09:37:03 INFO  ATServer:107 - Output to 127.0.0.1:59601 Success!
+
+@2019-11-14 09:37:08 INFO  ATServer:98 - Input from 127.0.0.1:59601 
+@2019-11-14 09:37:08 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:09 INFO  ATServer:98 - Input from 127.0.0.1:59601 student
+@2019-11-14 09:37:09 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:13 INFO  ATServer:98 - Input from 127.0.0.1:59601 101075402, jack
+@2019-11-14 09:37:13 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:16 INFO  ATServer:98 - Input from 127.0.0.1:59601 select course
+@2019-11-14 09:37:16 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:17 INFO  ATServer:98 - Input from 127.0.0.1:59601 108105
+@2019-11-14 09:37:17 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:21 INFO  ATServer:98 - Input from 127.0.0.1:59601 register for course
+@2019-11-14 09:37:21 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:37:22 INFO  ATServer:98 - Input from 127.0.0.1:59601 null
+@2019-11-14 09:37:22 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2019-11-14 09:37:22 INFO  ATServer:107 - Output to 127.0.0.1:59601 Please select from the menu.Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:38:13 INFO  ATServer:33 - Binding to port 5050
+@2019-11-14 09:38:13 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:38:13 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-14 09:38:13 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-14 09:38:13 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-14 09:38:13 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-14 09:38:13 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-14 09:38:13 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-14 09:38:13 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-14 09:38:13 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-14 09:38:13 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:38:13 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-14 09:38:13 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-14 09:38:13 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-14 09:38:13 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:38:13 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:38:14 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:38:14 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:38:21 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:59605] Client Socket: [59605 ]
+
+@2019-11-14 09:38:21 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:38:21 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__59605
+@2019-11-14 09:38:21 INFO  ATClient:32 - 59605 : Connected to server: /127.0.0.1
+@2019-11-14 09:38:21 INFO  ATClient:33 - 59605 : Connected to portid: 59605
+@2019-11-14 09:38:23 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:59606] Client Socket: [59606 ]
+
+@2019-11-14 09:38:23 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:38:23 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__59606
+@2019-11-14 09:38:23 INFO  ATClient:32 - 59606 : Connected to server: /127.0.0.1
+@2019-11-14 09:38:23 INFO  ATClient:33 - 59606 : Connected to portid: 59606
+@2019-11-14 09:38:27 INFO  ATServer:98 - Input from 127.0.0.1:59606 
+@2019-11-14 09:38:27 INFO  ATServer:115 - Output to 127.0.0.1:59606 Who Are you? Clerk or Student?
+
+@2019-11-14 09:38:29 INFO  ATServer:98 - Input from 127.0.0.1:59606 clerk
+@2019-11-14 09:38:29 INFO  ATServer:107 - Output to 127.0.0.1:59606 Please Input The Password:
+
+@2019-11-14 09:38:30 INFO  ATServer:98 - Input from 127.0.0.1:59606 admin2
+@2019-11-14 09:38:30 INFO  ATServer:107 - Output to 127.0.0.1:59606 What can I do for you? Menu: Create Course/Student, Delete Course/Student, Cancel Course, Dean's List.
+
+@2019-11-14 09:38:33 INFO  ATServer:98 - Input from 127.0.0.1:59606 create course
+@2019-11-14 09:38:33 INFO  ATServer:107 - Output to 127.0.0.1:59606 Please Input Course Info: 'title, course code, capsize, enforce prereqs(y/n), number of midterms, number of assignments, has a final(y/n), is project course(y/n)'
+
+@2019-11-14 09:38:42 INFO  ATServer:98 - Input from 127.0.0.1:59606 machine learning, 108105, 30, n, 0, 3, n, n
+@2019-11-14 09:38:42 INFO  String:220 - University Operation: Check course; Course info: 108105; State: Fail
+@2019-11-14 09:38:42 INFO  String:74 - Course Operation: Initialize course; title: machine learning, myCode: 108105
+@2019-11-14 09:38:42 INFO  String:288 - University Operation: Create new course; Course info: [machine learning,108105]; State: Success
+@2019-11-14 09:38:42 INFO  ATServer:107 - Output to 127.0.0.1:59606 Success!
+
+@2019-11-14 09:38:47 INFO  ATServer:98 - Input from 127.0.0.1:59605 
+@2019-11-14 09:38:47 INFO  ATServer:115 - Output to 127.0.0.1:59605 Who Are you? Clerk or Student?
+
+@2019-11-14 09:38:49 INFO  ATServer:98 - Input from 127.0.0.1:59605 student
+@2019-11-14 09:38:49 INFO  ATServer:107 - Output to 127.0.0.1:59605 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-14 09:38:52 INFO  ATServer:98 - Input from 127.0.0.1:59605 101075402, jack
+@2019-11-14 09:38:52 INFO  String:259 - University Operation: Lookup student; Student info: [101075402,jack]; State: Success
+@2019-11-14 09:38:52 INFO  ATServer:107 - Output to 127.0.0.1:59605 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-14 09:38:55 INFO  ATServer:98 - Input from 127.0.0.1:59605 select course
+@2019-11-14 09:38:55 INFO  String:186 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-14 09:38:55 INFO  ATServer:107 - Output to 127.0.0.1:59605 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+108105, machine learning
+
+@2019-11-14 09:38:57 INFO  ATServer:98 - Input from 127.0.0.1:59605 108105
+@2019-11-14 09:38:57 INFO  String:217 - University Operation: Check course; Course info: 108105; State: Success
+@2019-11-14 09:38:57 INFO  String:186 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-14 09:38:57 INFO  String:199 - University Operation: Get course; Course info: 108105; State: Success
+@2019-11-14 09:38:57 INFO  String:222 - Student Operation: student 101075402 has not selected course 108105;
+@2019-11-14 09:38:57 INFO  String:232 - Student Operation: student 101075402 has not registered for course 108105;
+@2019-11-14 09:38:57 INFO  String:242 - Student Operation: student 101075402 has not completed course 108105;
+@2019-11-14 09:38:57 INFO  String:148 - Student Operation: student 101075402 select course 108105; State: Success
+@2019-11-14 09:38:57 INFO  ATServer:107 - Output to 127.0.0.1:59605 Success!
+
+@2019-11-14 09:39:01 INFO  ATServer:98 - Input from 127.0.0.1:59605 register for course
+@2019-11-14 09:39:01 INFO  String:186 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-14 09:39:01 INFO  ATServer:107 - Output to 127.0.0.1:59605 Please Input Course Info: 'course code'
+Available Course List: 
+108105, machine learning
+
+@2019-11-14 09:39:02 INFO  ATServer:98 - Input from 127.0.0.1:59605 108105
+@2019-11-14 09:39:02 INFO  String:217 - University Operation: Check course; Course info: 108105; State: Success
+@2019-11-14 09:39:02 INFO  String:186 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-14 09:39:02 INFO  String:199 - University Operation: Get course; Course info: 108105; State: Success
+@2019-11-14 09:39:02 INFO  String:217 - University Operation: Check course; Course info: 108105; State: Success
+@2019-11-14 09:39:02 INFO  String:237 - University Operation: Check student; Student info: 101075402; State: Success
+@2019-11-14 09:39:02 INFO  String:219 - Student Operation: student 101075402 has selected course 108105;
+@2019-11-14 09:39:02 INFO  String:219 - Student Operation: student 101075402 has selected course 108105;
+@2019-11-14 09:39:02 INFO  String:232 - Student Operation: student 101075402 has not registered for course 108105;
+@2019-11-14 09:39:02 INFO  String:242 - Student Operation: student 101075402 has not completed course 108105;
+@2019-11-14 09:39:02 INFO  String:172 - Student Operation: student 101075402 register course 108105; State: Success
+@2019-11-14 09:39:02 INFO  String:269 - Course Operation: Add student 101075402 to course 108105; State: Success
+@2019-11-14 09:39:02 INFO  String:348 - University Operation: student 101075402 register course 108105; State: Success
+@2019-11-14 09:39:02 INFO  ATServer:107 - Output to 127.0.0.1:59605 Success!
+
+@2019-11-14 09:40:06 INFO  ATServer:98 - Input from 127.0.0.1:59605 fulfill course
+@2019-11-14 09:40:06 INFO  String:186 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-14 09:40:06 INFO  ATServer:107 - Output to 127.0.0.1:59605 Please Input Course Info and Grade: 'course code, grade'
+Available Course List: 
+108105, machine learning
+
+@2019-11-14 09:40:08 INFO  ATServer:98 - Input from 127.0.0.1:59605 108105, 85
+@2019-11-14 09:40:08 INFO  String:217 - University Operation: Check course; Course info: 108105; State: Success
+@2019-11-14 09:40:08 INFO  String:186 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-14 09:40:08 INFO  String:199 - University Operation: Get course; Course info: 108105; State: Success
+@2019-11-14 09:40:08 INFO  String:217 - University Operation: Check course; Course info: 108105; State: Success
+@2019-11-14 09:40:08 INFO  String:237 - University Operation: Check student; Student info: 101075402; State: Success
+@2019-11-14 09:40:08 INFO  String:229 - Student Operation: student 101075402 has registered for course 108105;
+@2019-11-14 09:40:08 INFO  String:229 - Student Operation: student 101075402 has registered for course 108105;
+@2019-11-14 09:40:08 INFO  String:242 - Student Operation: student 101075402 has not completed course 108105;
+@2019-11-14 09:40:08 INFO  String:300 - Course Operation: Mark student 101075402 from course 108105; State: Success
+@2019-11-14 09:40:08 INFO  String:384 - University Operation: student 101075402 fulfill course 108105; State: Success
+@2019-11-14 09:40:08 INFO  ATServer:107 - Output to 127.0.0.1:59605 Success!
+
+@2019-11-14 09:41:53 INFO  ATServer:33 - Binding to port 5050
+@2019-11-14 09:41:53 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:41:53 INFO  ATServer:47 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-14 09:41:53 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-14 09:41:53 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-14 09:41:53 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-14 09:41:53 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-14 09:41:53 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-14 09:41:53 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-14 09:41:53 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-14 09:41:53 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:41:53 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-14 09:41:53 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-14 09:41:53 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-14 09:41:53 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:41:53 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-14 09:41:53 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-14 09:41:53 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:42:00 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:59623] Client Socket: [59623 ]
+
+@2019-11-14 09:42:00 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:42:00 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__59623
+@2019-11-14 09:42:00 INFO  ATClient:32 - 59623 : Connected to server: /127.0.0.1
+@2019-11-14 09:42:00 INFO  ATClient:33 - 59623 : Connected to portid: 59623
+@2019-11-14 09:42:03 INFO  ATServer:68 - Client accepted : Client Address : [/127.0.0.1:59624] Client Socket: [59624 ]
+
+@2019-11-14 09:42:03 INFO  ATServer:58 - Waiting for a client ...
+@2019-11-14 09:42:03 INFO  ServerThread:54 - Class: ServerThread: Server Thread Running__59624
+@2019-11-14 09:42:03 INFO  ATClient:32 - 59624 : Connected to server: /127.0.0.1
+@2019-11-14 09:42:03 INFO  ATClient:33 - 59624 : Connected to portid: 59624
+@2019-11-14 09:42:07 INFO  ATServer:98 - Input from 127.0.0.1:59623 
+@2019-11-14 09:42:07 INFO  ATServer:115 - Output to 127.0.0.1:59623 Who Are you? Clerk or Student?
+
+@2019-11-14 09:42:09 INFO  ATServer:98 - Input from 127.0.0.1:59623 student
+@2019-11-14 09:42:09 INFO  ATServer:107 - Output to 127.0.0.1:59623 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-14 09:42:12 INFO  ATServer:98 - Input from 127.0.0.1:59623 101075401, tom
+@2019-11-14 09:42:12 INFO  String:259 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-14 09:42:12 INFO  ATServer:107 - Output to 127.0.0.1:59623 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-14 09:42:15 INFO  ATServer:98 - Input from 127.0.0.1:59623 select course
+@2019-11-14 09:42:15 INFO  String:186 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-14 09:42:15 INFO  ATServer:107 - Output to 127.0.0.1:59623 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-14 09:42:16 INFO  ATServer:98 - Input from 127.0.0.1:59623 108109
+@2019-11-14 09:42:16 INFO  String:217 - University Operation: Check course; Course info: 108109; State: Success
+@2019-11-14 09:42:16 INFO  String:186 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-14 09:42:16 INFO  String:199 - University Operation: Get course; Course info: 108109; State: Success
+@2019-11-14 09:42:16 INFO  String:222 - Student Operation: student 101075401 has not selected course 108109;
+@2019-11-14 09:42:16 INFO  String:232 - Student Operation: student 101075401 has not registered for course 108109;
+@2019-11-14 09:42:16 INFO  String:242 - Student Operation: student 101075401 has not completed course 108109;
+@2019-11-14 09:42:16 INFO  String:148 - Student Operation: student 101075401 select course 108109; State: Success
+@2019-11-14 09:42:16 INFO  ATServer:107 - Output to 127.0.0.1:59623 Success!
+
+@2019-11-14 09:42:21 INFO  ATServer:98 - Input from 127.0.0.1:59623 register for course
+@2019-11-14 09:42:21 INFO  String:186 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-14 09:42:21 INFO  ATServer:107 - Output to 127.0.0.1:59623 Please Input Course Info: 'course code'
+Available Course List: 
+108109, Discrete Mathematics
+
+@2019-11-14 09:42:27 INFO  ATServer:98 - Input from 127.0.0.1:59624 
+@2019-11-14 09:42:27 INFO  ATServer:115 - Output to 127.0.0.1:59624 Who Are you? Clerk or Student?
+
+@2019-11-14 09:42:29 INFO  ATServer:98 - Input from 127.0.0.1:59624 student
+@2019-11-14 09:42:29 INFO  ATServer:107 - Output to 127.0.0.1:59624 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-14 09:42:32 INFO  ATServer:98 - Input from 127.0.0.1:59624 101075402, jack
+@2019-11-14 09:42:32 INFO  String:259 - University Operation: Lookup student; Student info: [101075402,jack]; State: Success
+@2019-11-14 09:42:32 INFO  ATServer:107 - Output to 127.0.0.1:59624 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-14 09:42:35 INFO  ATServer:98 - Input from 127.0.0.1:59624 select course
+@2019-11-14 09:42:35 INFO  String:186 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-14 09:42:35 INFO  ATServer:107 - Output to 127.0.0.1:59624 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-14 09:42:36 INFO  ATServer:98 - Input from 127.0.0.1:59624 108109
+@2019-11-14 09:42:36 INFO  String:217 - University Operation: Check course; Course info: 108109; State: Success
+@2019-11-14 09:42:36 INFO  String:186 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-14 09:42:36 INFO  String:199 - University Operation: Get course; Course info: 108109; State: Success
+@2019-11-14 09:42:36 INFO  String:222 - Student Operation: student 101075402 has not selected course 108109;
+@2019-11-14 09:42:36 INFO  String:232 - Student Operation: student 101075402 has not registered for course 108109;
+@2019-11-14 09:42:36 INFO  String:242 - Student Operation: student 101075402 has not completed course 108109;
+@2019-11-14 09:42:36 INFO  String:148 - Student Operation: student 101075402 select course 108109; State: Success
+@2019-11-14 09:42:36 INFO  ATServer:107 - Output to 127.0.0.1:59624 Success!
+
+@2019-11-14 09:42:41 INFO  ATServer:98 - Input from 127.0.0.1:59624 register for course
+@2019-11-14 09:42:41 INFO  String:186 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-14 09:42:41 INFO  ATServer:107 - Output to 127.0.0.1:59624 Please Input Course Info: 'course code'
+Available Course List: 
+108109, Discrete Mathematics
+
+@2019-11-14 09:42:45 INFO  ATServer:98 - Input from 127.0.0.1:59624 108109
+@2019-11-14 09:42:45 INFO  String:217 - University Operation: Check course; Course info: 108109; State: Success
+@2019-11-14 09:42:45 INFO  String:186 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-14 09:42:45 INFO  String:199 - University Operation: Get course; Course info: 108109; State: Success
+@2019-11-14 09:42:45 INFO  String:217 - University Operation: Check course; Course info: 108109; State: Success
+@2019-11-14 09:42:45 INFO  String:237 - University Operation: Check student; Student info: 101075402; State: Success
+@2019-11-14 09:42:45 INFO  String:219 - Student Operation: student 101075402 has selected course 108109;
+@2019-11-14 09:42:45 INFO  String:219 - Student Operation: student 101075402 has selected course 108109;
+@2019-11-14 09:42:45 INFO  String:232 - Student Operation: student 101075402 has not registered for course 108109;
+@2019-11-14 09:42:45 INFO  String:242 - Student Operation: student 101075402 has not completed course 108109;
+@2019-11-14 09:42:45 INFO  String:172 - Student Operation: student 101075402 register course 108109; State: Success
+@2019-11-14 09:42:45 INFO  String:269 - Course Operation: Add student 101075402 to course 108109; State: Success
+@2019-11-14 09:42:45 INFO  String:348 - University Operation: student 101075402 register course 108109; State: Success
+@2019-11-14 09:42:45 INFO  ATServer:107 - Output to 127.0.0.1:59624 Success!
+
+@2019-11-14 09:42:46 INFO  ATServer:98 - Input from 127.0.0.1:59623 108109
+@2019-11-14 09:42:46 INFO  String:217 - University Operation: Check course; Course info: 108109; State: Success
+@2019-11-14 09:42:46 INFO  String:186 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-14 09:42:46 INFO  String:199 - University Operation: Get course; Course info: 108109; State: Success
+@2019-11-14 09:42:46 INFO  String:217 - University Operation: Check course; Course info: 108109; State: Success
+@2019-11-14 09:42:46 INFO  String:237 - University Operation: Check student; Student info: 101075402; State: Success
+@2019-11-14 09:42:46 INFO  String:222 - Student Operation: student 101075402 has not selected course 108109;
+@2019-11-14 09:42:46 INFO  String:354 - University Operation: student 101075402 register course 108109; State: Fail; Reason: The student or course doesn't exist or the student hasn't selected the course.
+@2019-11-14 09:42:46 INFO  ATServer:107 - Output to 127.0.0.1:59623 Unable to register for this course!
+
+@2019-11-26 10:48:26 INFO  ATServer:34 - Binding to port 5050
+@2019-11-26 10:48:26 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-26 10:48:26 INFO  ATServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-26 10:48:26 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-26 10:48:26 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-26 10:48:26 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-26 10:48:26 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-26 10:48:26 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-26 10:48:26 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-26 10:48:26 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-26 10:48:26 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-26 10:48:26 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-26 10:48:26 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-26 10:48:26 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-26 10:48:26 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-26 10:48:26 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-26 10:48:26 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-26 10:48:48 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:62350] Client Socket: [62350 ]
+
+@2019-11-26 10:48:48 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-26 10:48:48 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__62350
+@2019-11-26 10:48:48 INFO  ATClient:32 - 62350 : Connected to server: /127.0.0.1
+@2019-11-26 10:48:48 INFO  ATClient:33 - 62350 : Connected to portid: 62350
+@2019-11-26 10:48:50 INFO  ATServer:99 - Input from 127.0.0.1:62350 
+@2019-11-26 10:48:50 INFO  ATServer:125 - Output to 127.0.0.1:62350 Who Are you? Clerk or Student?
+
+@2019-11-26 10:48:52 INFO  ATServer:99 - Input from 127.0.0.1:62350 student
+@2019-11-26 10:48:52 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-26 10:49:17 INFO  ATServer:99 - Input from 127.0.0.1:62350 101075401, tom
+@2019-11-26 10:49:17 INFO  String:260 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-26 10:49:17 INFO  ATServer:117 - Output to 127.0.0.1:62350 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-26 10:49:21 INFO  ATServer:99 - Input from 127.0.0.1:62350 select course
+@2019-11-26 10:49:21 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:21 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-26 10:49:27 INFO  ATServer:99 - Input from 127.0.0.1:62350 105104
+@2019-11-26 10:49:27 INFO  String:218 - University Operation: Check course; Course info: 105104; State: Success
+@2019-11-26 10:49:27 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:27 INFO  String:200 - University Operation: Get course; Course info: 105104; State: Success
+@2019-11-26 10:49:27 INFO  String:222 - Student Operation: student 101075401 has not selected course 105104;
+@2019-11-26 10:49:27 INFO  String:232 - Student Operation: student 101075401 has not registered for course 105104;
+@2019-11-26 10:49:27 INFO  String:242 - Student Operation: student 101075401 has not completed course 105104;
+@2019-11-26 10:49:27 INFO  String:148 - Student Operation: student 101075401 select course 105104; State: Success
+@2019-11-26 10:49:27 INFO  ATServer:117 - Output to 127.0.0.1:62350 Success!
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:49:35 INFO  ATServer:99 - Input from 127.0.0.1:62350 null
+@2019-11-26 10:49:35 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 10:49:35 INFO  ServerThread:45 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2019-11-26 10:49:35 INFO  ATServer:117 - Output to 127.0.0.1:62350 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-26 10:50:38 INFO  ATServer:34 - Binding to port 5050
+@2019-11-26 10:50:38 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-26 10:50:38 INFO  ATServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-26 10:50:38 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-26 10:50:38 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-26 10:50:38 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-26 10:50:38 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-26 10:50:38 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-26 10:50:38 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-26 10:50:38 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-26 10:50:38 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-26 10:50:38 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-26 10:50:38 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-26 10:50:38 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-26 10:50:38 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-26 10:50:38 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-26 10:50:38 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-26 10:50:42 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:62355] Client Socket: [62355 ]
+
+@2019-11-26 10:50:42 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-26 10:50:42 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__62355
+@2019-11-26 10:50:42 INFO  ATClient:32 - 62355 : Connected to server: /127.0.0.1
+@2019-11-26 10:50:42 INFO  ATClient:33 - 62355 : Connected to portid: 62355
+@2019-11-26 10:50:45 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:62356] Client Socket: [62356 ]
+
+@2019-11-26 10:50:45 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-26 10:50:45 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__62356
+@2019-11-26 10:50:45 INFO  ATClient:32 - 62356 : Connected to server: /127.0.0.1
+@2019-11-26 10:50:45 INFO  ATClient:33 - 62356 : Connected to portid: 62356
+@2019-11-26 10:50:48 INFO  ATServer:99 - Input from 127.0.0.1:62355 
+@2019-11-26 10:50:48 INFO  ATServer:125 - Output to 127.0.0.1:62355 Who Are you? Clerk or Student?
+
+@2019-11-26 10:50:49 INFO  ATServer:99 - Input from 127.0.0.1:62356 
+@2019-11-26 10:50:49 INFO  ATServer:125 - Output to 127.0.0.1:62356 Who Are you? Clerk or Student?
+
+@2019-11-26 10:50:54 INFO  ATServer:99 - Input from 127.0.0.1:62355 student
+@2019-11-26 10:50:54 INFO  ATServer:117 - Output to 127.0.0.1:62355 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-26 10:50:57 INFO  ATServer:99 - Input from 127.0.0.1:62356 student
+@2019-11-26 10:50:57 INFO  ATServer:117 - Output to 127.0.0.1:62356 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-26 10:51:05 INFO  ATServer:99 - Input from 127.0.0.1:62355 101075401, tom
+@2019-11-26 10:51:05 INFO  String:260 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-26 10:51:05 INFO  ATServer:117 - Output to 127.0.0.1:62355 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-26 10:51:13 INFO  ATServer:99 - Input from 127.0.0.1:62356 101075402, jack
+@2019-11-26 10:51:13 INFO  String:260 - University Operation: Lookup student; Student info: [101075402,jack]; State: Success
+@2019-11-26 10:51:13 INFO  ATServer:117 - Output to 127.0.0.1:62356 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-26 10:51:19 INFO  ATServer:99 - Input from 127.0.0.1:62355 select course
+@2019-11-26 10:51:19 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-26 10:51:19 INFO  ATServer:117 - Output to 127.0.0.1:62355 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-26 10:51:25 INFO  ATServer:99 - Input from 127.0.0.1:62356 select course
+@2019-11-26 10:51:25 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-26 10:51:25 INFO  ATServer:117 - Output to 127.0.0.1:62356 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-26 10:51:29 INFO  ATServer:99 - Input from 127.0.0.1:62355 105104
+@2019-11-26 10:51:29 INFO  String:218 - University Operation: Check course; Course info: 105104; State: Success
+@2019-11-26 10:51:29 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-26 10:51:29 INFO  String:200 - University Operation: Get course; Course info: 105104; State: Success
+@2019-11-26 10:51:29 INFO  String:222 - Student Operation: student 101075402 has not selected course 105104;
+@2019-11-26 10:51:29 INFO  String:232 - Student Operation: student 101075402 has not registered for course 105104;
+@2019-11-26 10:51:29 INFO  String:242 - Student Operation: student 101075402 has not completed course 105104;
+@2019-11-26 10:51:29 INFO  String:148 - Student Operation: student 101075402 select course 105104; State: Success
+@2019-11-26 10:51:29 INFO  ATServer:117 - Output to 127.0.0.1:62355 Success!
+
+@2019-11-26 10:51:37 INFO  ATServer:99 - Input from 127.0.0.1:62356 105008
+@2019-11-26 10:51:37 INFO  String:218 - University Operation: Check course; Course info: 105008; State: Success
+@2019-11-26 10:51:37 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-26 10:51:37 INFO  String:200 - University Operation: Get course; Course info: 105008; State: Success
+@2019-11-26 10:51:37 INFO  String:222 - Student Operation: student 101075402 has not selected course 105008;
+@2019-11-26 10:51:37 INFO  String:232 - Student Operation: student 101075402 has not registered for course 105008;
+@2019-11-26 10:51:37 INFO  String:242 - Student Operation: student 101075402 has not completed course 105008;
+@2019-11-26 10:51:37 INFO  String:148 - Student Operation: student 101075402 select course 105008; State: Success
+@2019-11-26 10:51:37 INFO  ATServer:117 - Output to 127.0.0.1:62356 Success!
+
+@2019-11-26 10:51:53 INFO  ATServer:99 - Input from 127.0.0.1:62355 register for course
+@2019-11-26 10:51:53 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-26 10:51:53 INFO  ATServer:117 - Output to 127.0.0.1:62355 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+
+@2019-11-26 10:52:00 INFO  ATServer:99 - Input from 127.0.0.1:62356 register for course
+@2019-11-26 10:52:00 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-26 10:52:00 INFO  ATServer:117 - Output to 127.0.0.1:62356 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+
+@2019-11-26 11:02:53 INFO  ATServer:34 - Binding to port 5050
+@2019-11-26 11:02:53 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-26 11:02:54 INFO  ATServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-26 11:02:54 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-26 11:02:54 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-26 11:02:54 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-26 11:02:54 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-26 11:02:54 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-26 11:02:54 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-26 11:02:54 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-26 11:02:54 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-26 11:02:54 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-26 11:02:54 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-26 11:02:54 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-26 11:02:54 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-26 11:02:54 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-26 11:02:54 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-26 11:02:56 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:62378] Client Socket: [62378 ]
+
+@2019-11-26 11:02:56 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-26 11:02:56 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__62378
+@2019-11-26 11:02:56 INFO  ATClient:32 - 62378 : Connected to server: /127.0.0.1
+@2019-11-26 11:02:56 INFO  ATClient:33 - 62378 : Connected to portid: 62378
+@2019-11-26 11:03:00 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:62379] Client Socket: [62379 ]
+
+@2019-11-26 11:03:00 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-26 11:03:00 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__62379
+@2019-11-26 11:03:00 INFO  ATClient:32 - 62379 : Connected to server: /127.0.0.1
+@2019-11-26 11:03:00 INFO  ATClient:33 - 62379 : Connected to portid: 62379
+@2019-11-26 11:03:04 INFO  ATServer:99 - Input from 127.0.0.1:62378 
+@2019-11-26 11:03:04 INFO  ATServer:125 - Output to 127.0.0.1:62378 Who Are you? Clerk or Student?
+
+@2019-11-26 11:03:05 INFO  ATServer:99 - Input from 127.0.0.1:62379 
+@2019-11-26 11:03:05 INFO  ATServer:125 - Output to 127.0.0.1:62379 Who Are you? Clerk or Student?
+
+@2019-11-26 11:03:08 INFO  ATServer:99 - Input from 127.0.0.1:62378 student
+@2019-11-26 11:03:08 INFO  ATServer:117 - Output to 127.0.0.1:62378 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-26 11:03:10 INFO  ATServer:99 - Input from 127.0.0.1:62379 student
+@2019-11-26 11:03:10 INFO  ATServer:117 - Output to 127.0.0.1:62379 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-26 11:03:17 INFO  ATServer:99 - Input from 127.0.0.1:62378 101075401, tom
+@2019-11-26 11:03:17 INFO  String:260 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-26 11:03:17 INFO  ATServer:117 - Output to 127.0.0.1:62378 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-26 11:03:24 INFO  ATServer:99 - Input from 127.0.0.1:62379 101075402, jack
+@2019-11-26 11:03:24 INFO  String:260 - University Operation: Lookup student; Student info: [101075402,jack]; State: Success
+@2019-11-26 11:03:24 INFO  ATServer:117 - Output to 127.0.0.1:62379 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-26 11:03:29 INFO  ATServer:99 - Input from 127.0.0.1:62378 select course
+@2019-11-26 11:03:29 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 11:03:29 INFO  ATServer:117 - Output to 127.0.0.1:62378 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-26 11:03:34 INFO  ATServer:99 - Input from 127.0.0.1:62379 select course
+@2019-11-26 11:03:34 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-26 11:03:34 INFO  ATServer:117 - Output to 127.0.0.1:62379 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-26 11:03:38 INFO  ATServer:99 - Input from 127.0.0.1:62378 105104
+@2019-11-26 11:03:38 INFO  String:218 - University Operation: Check course; Course info: 105104; State: Success
+@2019-11-26 11:03:38 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-26 11:03:38 INFO  String:200 - University Operation: Get course; Course info: 105104; State: Success
+@2019-11-26 11:03:38 INFO  String:222 - Student Operation: student 101075402 has not selected course 105104;
+@2019-11-26 11:03:38 INFO  String:232 - Student Operation: student 101075402 has not registered for course 105104;
+@2019-11-26 11:03:38 INFO  String:242 - Student Operation: student 101075402 has not completed course 105104;
+@2019-11-26 11:03:38 INFO  String:148 - Student Operation: student 101075402 select course 105104; State: Success
+@2019-11-26 11:03:38 INFO  ATServer:117 - Output to 127.0.0.1:62378 Success!
+
+@2019-11-26 11:03:46 INFO  ATServer:99 - Input from 127.0.0.1:62379 105008
+@2019-11-26 11:03:46 INFO  String:218 - University Operation: Check course; Course info: 105008; State: Success
+@2019-11-26 11:03:46 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-26 11:03:46 INFO  String:200 - University Operation: Get course; Course info: 105008; State: Success
+@2019-11-26 11:03:46 INFO  String:222 - Student Operation: student 101075402 has not selected course 105008;
+@2019-11-26 11:03:46 INFO  String:232 - Student Operation: student 101075402 has not registered for course 105008;
+@2019-11-26 11:03:46 INFO  String:242 - Student Operation: student 101075402 has not completed course 105008;
+@2019-11-26 11:03:46 INFO  String:148 - Student Operation: student 101075402 select course 105008; State: Success
+@2019-11-26 11:03:46 INFO  ATServer:117 - Output to 127.0.0.1:62379 Success!
+
+@2019-11-26 11:03:51 INFO  ATServer:99 - Input from 127.0.0.1:62378 register for course
+@2019-11-26 11:03:51 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-26 11:03:51 INFO  ATServer:117 - Output to 127.0.0.1:62378 No Available Courses!
+
+@2019-11-26 11:03:57 INFO  ATServer:99 - Input from 127.0.0.1:62379 register for course
+@2019-11-26 11:03:57 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-26 11:03:57 INFO  ATServer:117 - Output to 127.0.0.1:62379 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+
+@2019-11-29 19:11:35 INFO  ATServer:34 - Binding to port 5050
+@2019-11-29 19:11:35 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 19:11:35 INFO  ATServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-29 19:11:35 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-29 19:11:35 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-29 19:11:35 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-29 19:11:35 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-29 19:11:35 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-29 19:11:35 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-29 19:11:35 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-29 19:11:35 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-29 19:11:35 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-29 19:11:35 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-29 19:11:35 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-29 19:11:35 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-29 19:11:35 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-29 19:11:35 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-29 19:11:46 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:64416] Client Socket: [64416 ]
+
+@2019-11-29 19:11:46 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 19:11:46 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__64416
+@2019-11-29 19:11:46 INFO  ATClient:32 - 64416 : Connected to server: /127.0.0.1
+@2019-11-29 19:11:46 INFO  ATClient:33 - 64416 : Connected to portid: 64416
+@2019-11-29 19:11:50 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:64417] Client Socket: [64417 ]
+
+@2019-11-29 19:11:50 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 19:11:50 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__64417
+@2019-11-29 19:11:50 INFO  ATClient:32 - 64417 : Connected to server: /127.0.0.1
+@2019-11-29 19:11:50 INFO  ATClient:33 - 64417 : Connected to portid: 64417
+@2019-11-29 19:11:53 INFO  ATServer:99 - Input from 127.0.0.1:64416 
+@2019-11-29 19:11:53 INFO  ATServer:127 - Output to 127.0.0.1:64416 Who Are you? Clerk or Student?
+
+@2019-11-29 19:11:55 INFO  ATServer:99 - Input from 127.0.0.1:64417 
+@2019-11-29 19:11:55 INFO  ATServer:127 - Output to 127.0.0.1:64417 Who Are you? Clerk or Student?
+
+@2019-11-29 19:11:58 INFO  ATServer:99 - Input from 127.0.0.1:64416 Student
+@2019-11-29 19:11:58 INFO  ATServer:119 - Output to 127.0.0.1:64416 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-29 19:12:00 INFO  ATServer:99 - Input from 127.0.0.1:64417 Student
+@2019-11-29 19:12:00 INFO  ATServer:119 - Output to 127.0.0.1:64417 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-29 19:12:08 INFO  ATServer:99 - Input from 127.0.0.1:64416 101075401, tom
+@2019-11-29 19:12:08 INFO  String:260 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-29 19:12:08 INFO  ATServer:119 - Output to 127.0.0.1:64416 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-29 19:12:14 INFO  ATServer:99 - Input from 127.0.0.1:64417 101075402, jack
+@2019-11-29 19:12:14 INFO  String:260 - University Operation: Lookup student; Student info: [101075402,jack]; State: Success
+@2019-11-29 19:12:14 INFO  ATServer:119 - Output to 127.0.0.1:64417 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-29 19:12:19 INFO  ATServer:99 - Input from 127.0.0.1:64416 select course
+@2019-11-29 19:12:19 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 19:12:19 INFO  ATServer:119 - Output to 127.0.0.1:64416 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-29 19:12:24 INFO  ATServer:99 - Input from 127.0.0.1:64417 select course
+@2019-11-29 19:12:24 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 19:12:24 INFO  ATServer:119 - Output to 127.0.0.1:64417 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-29 19:12:29 INFO  ATServer:99 - Input from 127.0.0.1:64416 105104
+@2019-11-29 19:12:29 INFO  String:218 - University Operation: Check course; Course info: 105104; State: Success
+@2019-11-29 19:12:29 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 19:12:29 INFO  String:200 - University Operation: Get course; Course info: 105104; State: Success
+@2019-11-29 19:12:29 INFO  String:222 - Student Operation: student 101075402 has not selected course 105104;
+@2019-11-29 19:12:29 INFO  String:232 - Student Operation: student 101075402 has not registered for course 105104;
+@2019-11-29 19:12:29 INFO  String:242 - Student Operation: student 101075402 has not completed course 105104;
+@2019-11-29 19:12:29 INFO  String:148 - Student Operation: student 101075402 select course 105104; State: Success
+@2019-11-29 19:12:29 INFO  ATServer:119 - Output to 127.0.0.1:64416 Success!
+
+@2019-11-29 19:12:32 INFO  ATServer:99 - Input from 127.0.0.1:64417 105008
+@2019-11-29 19:12:32 INFO  String:218 - University Operation: Check course; Course info: 105008; State: Success
+@2019-11-29 19:12:32 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 19:12:32 INFO  String:200 - University Operation: Get course; Course info: 105008; State: Success
+@2019-11-29 19:12:32 INFO  String:222 - Student Operation: student 101075402 has not selected course 105008;
+@2019-11-29 19:12:32 INFO  String:232 - Student Operation: student 101075402 has not registered for course 105008;
+@2019-11-29 19:12:32 INFO  String:242 - Student Operation: student 101075402 has not completed course 105008;
+@2019-11-29 19:12:32 INFO  String:148 - Student Operation: student 101075402 select course 105008; State: Success
+@2019-11-29 19:12:32 INFO  ATServer:119 - Output to 127.0.0.1:64417 Success!
+
+@2019-11-29 19:12:38 INFO  ATServer:99 - Input from 127.0.0.1:64416 register for course
+@2019-11-29 19:12:38 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 19:12:38 INFO  ATServer:119 - Output to 127.0.0.1:64416 No Available Courses!
+
+@2019-11-29 19:12:43 INFO  ATServer:99 - Input from 127.0.0.1:64417 register for course
+@2019-11-29 19:12:43 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 19:12:43 INFO  ATServer:119 - Output to 127.0.0.1:64417 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+
+@2019-11-29 19:19:54 INFO  ATServer:34 - Binding to port 5050
+@2019-11-29 19:19:54 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 19:19:54 INFO  ATServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-29 19:19:54 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-29 19:19:54 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-29 19:19:54 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-29 19:19:54 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-29 19:19:54 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-29 19:19:54 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-29 19:19:54 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-29 19:19:54 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-29 19:19:54 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-29 19:19:54 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-29 19:19:54 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-29 19:19:54 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-29 19:19:54 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-29 19:19:54 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-29 19:19:58 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:64475] Client Socket: [64475 ]
+
+@2019-11-29 19:19:58 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 19:19:58 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__64475
+@2019-11-29 19:19:58 INFO  ATClient:32 - 64475 : Connected to server: /127.0.0.1
+@2019-11-29 19:19:58 INFO  ATClient:33 - 64475 : Connected to portid: 64475
+@2019-11-29 19:20:02 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:64476] Client Socket: [64476 ]
+
+@2019-11-29 19:20:02 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 19:20:02 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__64476
+@2019-11-29 19:20:02 INFO  ATClient:32 - 64476 : Connected to server: /127.0.0.1
+@2019-11-29 19:20:02 INFO  ATClient:33 - 64476 : Connected to portid: 64476
+@2019-11-29 19:20:06 INFO  ATServer:99 - Input from 127.0.0.1:64475 
+@2019-11-29 19:20:06 INFO  ATServer:136 - Output to 127.0.0.1:64475 Who Are you? Clerk or Student?
+
+@2019-11-29 19:20:07 INFO  ATServer:99 - Input from 127.0.0.1:64476 
+@2019-11-29 19:20:07 INFO  ATServer:136 - Output to 127.0.0.1:64476 Who Are you? Clerk or Student?
+
+@2019-11-29 19:20:10 INFO  ATServer:99 - Input from 127.0.0.1:64475 student
+@2019-11-29 19:20:10 INFO  ATServer:128 - Output to 127.0.0.1:64475 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-29 19:20:12 INFO  ATServer:99 - Input from 127.0.0.1:64476 student
+@2019-11-29 19:20:12 INFO  ATServer:128 - Output to 127.0.0.1:64476 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-29 19:20:18 INFO  ATServer:99 - Input from 127.0.0.1:64475 101075401, tom
+@2019-11-29 19:20:18 INFO  String:260 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-29 19:20:18 INFO  ATServer:128 - Output to 127.0.0.1:64475 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-29 19:20:24 INFO  ATServer:99 - Input from 127.0.0.1:64476 101075402, jack
+@2019-11-29 19:20:24 INFO  String:260 - University Operation: Lookup student; Student info: [101075402,jack]; State: Success
+@2019-11-29 19:20:24 INFO  ATServer:128 - Output to 127.0.0.1:64476 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-29 19:20:28 INFO  ATServer:99 - Input from 127.0.0.1:64475 select course
+@2019-11-29 19:20:28 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 19:20:28 INFO  ATServer:128 - Output to 127.0.0.1:64475 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-29 19:20:32 INFO  ATServer:99 - Input from 127.0.0.1:64476 select course
+@2019-11-29 19:20:32 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 19:20:32 INFO  ATServer:128 - Output to 127.0.0.1:64476 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-29 19:20:40 INFO  ATServer:99 - Input from 127.0.0.1:64475 105104
+@2019-11-29 19:20:40 INFO  String:218 - University Operation: Check course; Course info: 105104; State: Success
+@2019-11-29 19:20:40 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 19:20:40 INFO  String:200 - University Operation: Get course; Course info: 105104; State: Success
+@2019-11-29 19:20:40 INFO  String:222 - Student Operation: student 101075402 has not selected course 105104;
+@2019-11-29 19:20:40 INFO  String:232 - Student Operation: student 101075402 has not registered for course 105104;
+@2019-11-29 19:20:40 INFO  String:242 - Student Operation: student 101075402 has not completed course 105104;
+@2019-11-29 19:20:40 INFO  String:148 - Student Operation: student 101075402 select course 105104; State: Success
+@2019-11-29 19:20:40 INFO  ATServer:128 - Output to 127.0.0.1:64475 Success!
+
+@2019-11-29 19:20:44 INFO  ATServer:99 - Input from 127.0.0.1:64476 105008
+@2019-11-29 19:20:44 INFO  String:218 - University Operation: Check course; Course info: 105008; State: Success
+@2019-11-29 19:20:44 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 19:20:44 INFO  String:200 - University Operation: Get course; Course info: 105008; State: Success
+@2019-11-29 19:20:44 INFO  String:222 - Student Operation: student 101075401 has not selected course 105008;
+@2019-11-29 19:20:44 INFO  String:232 - Student Operation: student 101075401 has not registered for course 105008;
+@2019-11-29 19:20:44 INFO  String:242 - Student Operation: student 101075401 has not completed course 105008;
+@2019-11-29 19:20:44 INFO  String:148 - Student Operation: student 101075401 select course 105008; State: Success
+@2019-11-29 19:20:44 INFO  ATServer:128 - Output to 127.0.0.1:64476 Success!
+
+@2019-11-29 19:20:49 INFO  ATServer:99 - Input from 127.0.0.1:64475 register for course
+@2019-11-29 19:20:49 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 19:20:49 INFO  ATServer:128 - Output to 127.0.0.1:64475 Please Input Course Info: 'course code'
+Available Course List: 
+105008, Computational Geometry
+
+@2019-11-29 19:20:55 INFO  ATServer:99 - Input from 127.0.0.1:64476 register for course
+@2019-11-29 19:20:55 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 19:20:55 INFO  ATServer:128 - Output to 127.0.0.1:64476 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+
+@2019-11-29 19:53:40 INFO  ATServer:34 - Binding to port 5050
+@2019-11-29 19:53:40 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 19:53:40 INFO  ATServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-29 19:53:40 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-29 19:53:40 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-29 19:53:40 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-29 19:53:40 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-29 19:53:40 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-29 19:53:40 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-29 19:53:40 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-29 19:53:40 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-29 19:53:40 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-29 19:53:40 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-29 19:53:40 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-29 19:53:40 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-29 19:53:40 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-29 19:53:40 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-29 19:53:44 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:64580] Client Socket: [64580 ]
+
+@2019-11-29 19:53:44 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 19:53:44 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__64580
+@2019-11-29 19:53:44 INFO  ATClient:32 - 64580 : Connected to server: /127.0.0.1
+@2019-11-29 19:53:44 INFO  ATClient:33 - 64580 : Connected to portid: 64580
+@2019-11-29 19:53:46 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:64581] Client Socket: [64581 ]
+
+@2019-11-29 19:53:46 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 19:53:46 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__64581
+@2019-11-29 19:53:47 INFO  ATClient:32 - 64581 : Connected to server: /127.0.0.1
+@2019-11-29 19:53:47 INFO  ATClient:33 - 64581 : Connected to portid: 64581
+@2019-11-29 19:53:49 INFO  ATServer:99 - Input from 127.0.0.1:64580 
+@2019-11-29 19:53:49 INFO  ATServer:127 - Output to 127.0.0.1:64580 Who Are you? Clerk or Student?
+
+@2019-11-29 19:53:51 INFO  ATServer:99 - Input from 127.0.0.1:64581 
+@2019-11-29 19:53:51 INFO  ATServer:127 - Output to 127.0.0.1:64581 Who Are you? Clerk or Student?
+
+@2019-11-29 19:53:53 INFO  ATServer:99 - Input from 127.0.0.1:64580 student
+@2019-11-29 19:53:53 INFO  ATServer:119 - Output to 127.0.0.1:64580 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-29 19:53:56 INFO  ATServer:99 - Input from 127.0.0.1:64581 student
+@2019-11-29 19:53:56 INFO  ATServer:119 - Output to 127.0.0.1:64581 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-29 19:54:02 INFO  ATServer:99 - Input from 127.0.0.1:64580 101075401, tom
+@2019-11-29 19:54:02 INFO  String:260 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-29 19:54:02 INFO  ATServer:119 - Output to 127.0.0.1:64580 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-29 19:54:08 INFO  ATServer:99 - Input from 127.0.0.1:64581 101075402, jack
+@2019-11-29 19:54:08 INFO  String:260 - University Operation: Lookup student; Student info: [101075402,jack]; State: Success
+@2019-11-29 19:54:08 INFO  ATServer:119 - Output to 127.0.0.1:64581 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-29 19:54:13 INFO  ATServer:99 - Input from 127.0.0.1:64580 select course
+@2019-11-29 19:54:13 INFO  ATServer:113 - Now operating thread: 64580,101075401 
+@2019-11-29 19:54:13 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 19:54:13 INFO  ATServer:119 - Output to 127.0.0.1:64580 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-29 19:54:17 INFO  ATServer:99 - Input from 127.0.0.1:64581 select course
+@2019-11-29 19:54:17 INFO  ATServer:113 - Now operating thread: 64581,101075402 
+@2019-11-29 19:54:17 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 19:54:17 INFO  ATServer:119 - Output to 127.0.0.1:64581 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-29 19:54:21 INFO  ATServer:99 - Input from 127.0.0.1:64580 105104
+@2019-11-29 19:54:21 INFO  ATServer:113 - Now operating thread: 64580,101075401 
+@2019-11-29 19:54:21 INFO  String:218 - University Operation: Check course; Course info: 105104; State: Success
+@2019-11-29 19:54:21 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 19:54:21 INFO  String:200 - University Operation: Get course; Course info: 105104; State: Success
+@2019-11-29 19:54:21 INFO  String:222 - Student Operation: student 101075402 has not selected course 105104;
+@2019-11-29 19:54:21 INFO  String:232 - Student Operation: student 101075402 has not registered for course 105104;
+@2019-11-29 19:54:21 INFO  String:242 - Student Operation: student 101075402 has not completed course 105104;
+@2019-11-29 19:54:21 INFO  String:148 - Student Operation: student 101075402 select course 105104; State: Success
+@2019-11-29 19:54:21 INFO  ATServer:119 - Output to 127.0.0.1:64580 Success!
+
+@2019-11-29 19:54:26 INFO  ATServer:99 - Input from 127.0.0.1:64581 105008
+@2019-11-29 19:54:26 INFO  ATServer:113 - Now operating thread: 64581,101075402 
+@2019-11-29 19:54:26 INFO  String:218 - University Operation: Check course; Course info: 105008; State: Success
+@2019-11-29 19:54:26 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 19:54:26 INFO  String:200 - University Operation: Get course; Course info: 105008; State: Success
+@2019-11-29 19:54:26 INFO  String:222 - Student Operation: student 101075401 has not selected course 105008;
+@2019-11-29 19:54:26 INFO  String:232 - Student Operation: student 101075401 has not registered for course 105008;
+@2019-11-29 19:54:26 INFO  String:242 - Student Operation: student 101075401 has not completed course 105008;
+@2019-11-29 19:54:26 INFO  String:148 - Student Operation: student 101075401 select course 105008; State: Success
+@2019-11-29 19:54:26 INFO  ATServer:119 - Output to 127.0.0.1:64581 Success!
+
+@2019-11-29 19:54:32 INFO  ATServer:99 - Input from 127.0.0.1:64580 register for course
+@2019-11-29 19:54:32 INFO  ATServer:113 - Now operating thread: 64580,101075401 
+@2019-11-29 19:54:32 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 19:54:32 INFO  ATServer:119 - Output to 127.0.0.1:64580 Please Input Course Info: 'course code'
+Available Course List: 
+105008, Computational Geometry
+
+@2019-11-29 19:54:37 INFO  ATServer:99 - Input from 127.0.0.1:64581 register for course
+@2019-11-29 19:54:37 INFO  ATServer:113 - Now operating thread: 64581,101075402 
+@2019-11-29 19:54:37 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 19:54:37 INFO  ATServer:119 - Output to 127.0.0.1:64581 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+
+@2019-11-29 19:59:09 INFO  ATServer:34 - Binding to port 5050
+@2019-11-29 19:59:09 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 19:59:09 INFO  ATServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-29 19:59:09 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-29 19:59:09 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-29 19:59:09 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-29 19:59:09 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-29 19:59:09 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-29 19:59:09 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-29 19:59:09 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-29 19:59:09 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-29 19:59:09 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-29 19:59:09 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-29 19:59:09 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-29 19:59:09 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-29 19:59:09 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-29 19:59:09 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-29 19:59:12 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:64597] Client Socket: [64597 ]
+
+@2019-11-29 19:59:12 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 19:59:12 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__64597
+@2019-11-29 19:59:12 INFO  ATClient:32 - 64597 : Connected to server: /127.0.0.1
+@2019-11-29 19:59:12 INFO  ATClient:33 - 64597 : Connected to portid: 64597
+@2019-11-29 19:59:15 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:64598] Client Socket: [64598 ]
+
+@2019-11-29 19:59:15 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 19:59:15 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__64598
+@2019-11-29 19:59:15 INFO  ATClient:32 - 64598 : Connected to server: /127.0.0.1
+@2019-11-29 19:59:15 INFO  ATClient:33 - 64598 : Connected to portid: 64598
+@2019-11-29 19:59:18 INFO  ATServer:99 - Input from 127.0.0.1:64597 
+@2019-11-29 19:59:18 INFO  ATServer:127 - Output to 127.0.0.1:64597 Who Are you? Clerk or Student?
+
+@2019-11-29 19:59:20 INFO  ATServer:99 - Input from 127.0.0.1:64598 
+@2019-11-29 19:59:20 INFO  ATServer:127 - Output to 127.0.0.1:64598 Who Are you? Clerk or Student?
+
+@2019-11-29 19:59:23 INFO  ATServer:99 - Input from 127.0.0.1:64597 student
+@2019-11-29 19:59:23 INFO  ATServer:119 - Output to 127.0.0.1:64597 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-29 19:59:26 INFO  ATServer:99 - Input from 127.0.0.1:64598 student
+@2019-11-29 19:59:26 INFO  ATServer:119 - Output to 127.0.0.1:64598 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-29 19:59:31 INFO  ATServer:99 - Input from 127.0.0.1:64597 101075401, tom
+@2019-11-29 19:59:31 INFO  String:260 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-29 19:59:31 INFO  ATServer:119 - Output to 127.0.0.1:64597 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-29 19:59:38 INFO  ATServer:99 - Input from 127.0.0.1:64598 101075402, jack
+@2019-11-29 19:59:38 INFO  String:260 - University Operation: Lookup student; Student info: [101075402,jack]; State: Success
+@2019-11-29 19:59:38 INFO  ATServer:119 - Output to 127.0.0.1:64598 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-29 19:59:43 INFO  ATServer:99 - Input from 127.0.0.1:64597 select course
+@2019-11-29 19:59:43 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 19:59:43 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 19:59:43 INFO  ATServer:119 - Output to 127.0.0.1:64597 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-29 19:59:47 INFO  ATServer:99 - Input from 127.0.0.1:64598 select course
+@2019-11-29 19:59:47 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 19:59:47 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 19:59:47 INFO  ATServer:119 - Output to 127.0.0.1:64598 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-29 19:59:51 INFO  ATServer:99 - Input from 127.0.0.1:64597 105104
+@2019-11-29 19:59:51 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 19:59:51 INFO  String:218 - University Operation: Check course; Course info: 105104; State: Success
+@2019-11-29 19:59:51 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 19:59:51 INFO  String:200 - University Operation: Get course; Course info: 105104; State: Success
+@2019-11-29 19:59:51 INFO  String:222 - Student Operation: student 101075401 has not selected course 105104;
+@2019-11-29 19:59:51 INFO  String:232 - Student Operation: student 101075401 has not registered for course 105104;
+@2019-11-29 19:59:51 INFO  String:242 - Student Operation: student 101075401 has not completed course 105104;
+@2019-11-29 19:59:51 INFO  String:148 - Student Operation: student 101075401 select course 105104; State: Success
+@2019-11-29 19:59:51 INFO  ATServer:119 - Output to 127.0.0.1:64597 Success!
+
+@2019-11-29 19:59:55 INFO  ATServer:99 - Input from 127.0.0.1:64598 105008
+@2019-11-29 19:59:55 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 19:59:55 INFO  String:218 - University Operation: Check course; Course info: 105008; State: Success
+@2019-11-29 19:59:55 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 19:59:55 INFO  String:200 - University Operation: Get course; Course info: 105008; State: Success
+@2019-11-29 19:59:55 INFO  String:222 - Student Operation: student 101075402 has not selected course 105008;
+@2019-11-29 19:59:55 INFO  String:232 - Student Operation: student 101075402 has not registered for course 105008;
+@2019-11-29 19:59:55 INFO  String:242 - Student Operation: student 101075402 has not completed course 105008;
+@2019-11-29 19:59:55 INFO  String:148 - Student Operation: student 101075402 select course 105008; State: Success
+@2019-11-29 19:59:55 INFO  ATServer:119 - Output to 127.0.0.1:64598 Success!
+
+@2019-11-29 20:00:01 INFO  ATServer:99 - Input from 127.0.0.1:64597 register for course
+@2019-11-29 20:00:01 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:01 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 20:00:01 INFO  ATServer:119 - Output to 127.0.0.1:64597 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+
+@2019-11-29 20:00:06 INFO  ATServer:99 - Input from 127.0.0.1:64598 register for course
+@2019-11-29 20:00:06 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:06 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 20:00:06 INFO  ATServer:119 - Output to 127.0.0.1:64598 Please Input Course Info: 'course code'
+Available Course List: 
+105008, Computational Geometry
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:11 INFO  ATServer:99 - Input from 127.0.0.1:64597 null
+@2019-11-29 20:00:11 INFO  ATServer:113 - Now operating thread: 64597,101075401 
+@2019-11-29 20:00:11 INFO  ServerThread:45 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2019-11-29 20:00:11 INFO  ATServer:119 - Output to 127.0.0.1:64597 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:00:12 INFO  ATServer:99 - Input from 127.0.0.1:64598 null
+@2019-11-29 20:00:12 INFO  ATServer:113 - Now operating thread: 64598,101075402 
+@2019-11-29 20:00:12 INFO  ServerThread:45 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2019-11-29 20:00:12 INFO  ATServer:119 - Output to 127.0.0.1:64598 Your input should be in correct format.
+
+@2019-11-29 20:11:04 INFO  ATServer:34 - Binding to port 5050
+@2019-11-29 20:11:04 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 20:11:04 INFO  ATServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-29 20:11:04 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-29 20:11:04 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-29 20:11:04 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-29 20:11:04 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-29 20:11:04 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-29 20:11:04 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-29 20:11:04 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-29 20:11:04 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-29 20:11:04 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-29 20:11:04 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-29 20:11:04 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-29 20:11:04 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-29 20:11:04 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-29 20:11:04 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-29 20:11:09 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:64677] Client Socket: [64677 ]
+
+@2019-11-29 20:11:09 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 20:11:09 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__64677
+@2019-11-29 20:11:09 INFO  ATClient:32 - 64677 : Connected to server: /127.0.0.1
+@2019-11-29 20:11:09 INFO  ATClient:33 - 64677 : Connected to portid: 64677
+@2019-11-29 20:11:13 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:64678] Client Socket: [64678 ]
+
+@2019-11-29 20:11:13 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 20:11:13 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__64678
+@2019-11-29 20:11:13 INFO  ATClient:32 - 64678 : Connected to server: /127.0.0.1
+@2019-11-29 20:11:13 INFO  ATClient:33 - 64678 : Connected to portid: 64678
+@2019-11-29 20:11:17 INFO  ATServer:99 - Input from 127.0.0.1:64677 
+@2019-11-29 20:11:17 INFO  ATServer:127 - Output to 127.0.0.1:64677 Who Are you? Clerk or Student?
+
+@2019-11-29 20:11:19 INFO  ATServer:99 - Input from 127.0.0.1:64678 
+@2019-11-29 20:11:19 INFO  ATServer:127 - Output to 127.0.0.1:64678 Who Are you? Clerk or Student?
+
+@2019-11-29 20:11:21 INFO  ATServer:99 - Input from 127.0.0.1:64677 student
+@2019-11-29 20:11:21 INFO  ATServer:119 - Output to 127.0.0.1:64677 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-29 20:11:24 INFO  ATServer:99 - Input from 127.0.0.1:64678 student
+@2019-11-29 20:11:24 INFO  ATServer:119 - Output to 127.0.0.1:64678 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-29 20:11:40 INFO  ATServer:99 - Input from 127.0.0.1:64677 101075401, tom
+@2019-11-29 20:11:40 INFO  String:260 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-29 20:11:40 INFO  ATServer:119 - Output to 127.0.0.1:64677 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-29 20:11:50 INFO  ATServer:99 - Input from 127.0.0.1:64678 101075402, jack
+@2019-11-29 20:11:50 INFO  String:260 - University Operation: Lookup student; Student info: [101075402,jack]; State: Success
+@2019-11-29 20:11:50 INFO  ATServer:119 - Output to 127.0.0.1:64678 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-29 20:11:55 INFO  ATServer:99 - Input from 127.0.0.1:64677 select course
+@2019-11-29 20:11:55 INFO  ATServer:113 - Now operating thread: 64677,101075401 
+@2019-11-29 20:11:55 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 20:11:55 INFO  ATServer:119 - Output to 127.0.0.1:64677 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-29 20:12:00 INFO  ATServer:99 - Input from 127.0.0.1:64678 select course
+@2019-11-29 20:12:00 INFO  ATServer:113 - Now operating thread: 64678,101075402 
+@2019-11-29 20:12:00 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 20:12:00 INFO  ATServer:119 - Output to 127.0.0.1:64678 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-29 20:12:06 INFO  ATServer:99 - Input from 127.0.0.1:64677 105104
+@2019-11-29 20:12:06 INFO  ATServer:113 - Now operating thread: 64677,101075401 
+@2019-11-29 20:12:06 INFO  String:218 - University Operation: Check course; Course info: 105104; State: Success
+@2019-11-29 20:12:06 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 20:12:06 INFO  String:200 - University Operation: Get course; Course info: 105104; State: Success
+@2019-11-29 20:12:06 INFO  String:222 - Student Operation: student 101075401 has not selected course 105104;
+@2019-11-29 20:12:06 INFO  String:232 - Student Operation: student 101075401 has not registered for course 105104;
+@2019-11-29 20:12:06 INFO  String:242 - Student Operation: student 101075401 has not completed course 105104;
+@2019-11-29 20:12:06 INFO  String:148 - Student Operation: student 101075401 select course 105104; State: Success
+@2019-11-29 20:12:06 INFO  ATServer:119 - Output to 127.0.0.1:64677 Success!
+
+@2019-11-29 20:12:11 INFO  ATServer:99 - Input from 127.0.0.1:64678 105008
+@2019-11-29 20:12:11 INFO  ATServer:113 - Now operating thread: 64678,101075402 
+@2019-11-29 20:12:11 INFO  String:218 - University Operation: Check course; Course info: 105008; State: Success
+@2019-11-29 20:12:11 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 20:12:11 INFO  String:200 - University Operation: Get course; Course info: 105008; State: Success
+@2019-11-29 20:12:11 INFO  String:222 - Student Operation: student 101075402 has not selected course 105008;
+@2019-11-29 20:12:11 INFO  String:232 - Student Operation: student 101075402 has not registered for course 105008;
+@2019-11-29 20:12:11 INFO  String:242 - Student Operation: student 101075402 has not completed course 105008;
+@2019-11-29 20:12:11 INFO  String:148 - Student Operation: student 101075402 select course 105008; State: Success
+@2019-11-29 20:12:11 INFO  ATServer:119 - Output to 127.0.0.1:64678 Success!
+
+@2019-11-29 20:12:14 INFO  ATServer:99 - Input from 127.0.0.1:64677 
+@2019-11-29 20:12:14 INFO  ATServer:113 - Now operating thread: 64677,101075401 
+@2019-11-29 20:12:14 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 20:12:14 INFO  ATServer:119 - Output to 127.0.0.1:64677 Please select from the menu. Menu: Select Course, Register for Course, Drop Course, Deregister Course.
+
+@2019-11-29 20:12:23 INFO  ATServer:99 - Input from 127.0.0.1:64677 register for course
+@2019-11-29 20:12:23 INFO  ATServer:113 - Now operating thread: 64677,101075401 
+@2019-11-29 20:12:23 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 20:12:23 INFO  ATServer:119 - Output to 127.0.0.1:64677 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+
+@2019-11-29 20:12:33 INFO  ATServer:99 - Input from 127.0.0.1:64678 register for course
+@2019-11-29 20:12:33 INFO  ATServer:113 - Now operating thread: 64678,101075402 
+@2019-11-29 20:12:33 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 20:12:33 INFO  ATServer:119 - Output to 127.0.0.1:64678 Please Input Course Info: 'course code'
+Available Course List: 
+105008, Computational Geometry
+
+@2019-11-29 20:20:39 INFO  ATServer:34 - Binding to port 5050
+@2019-11-29 20:20:39 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 20:20:39 INFO  ATServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2019-11-29 20:20:40 INFO  String:74 - Course Operation: Initialize course; title: OO Software Dev, myCode: 105104
+@2019-11-29 20:20:40 INFO  String:74 - Course Operation: Initialize course; title: Computational Geometry, myCode: 105008
+@2019-11-29 20:20:40 INFO  String:74 - Course Operation: Initialize course; title: Principles of Distributed Computing, myCode: 105003
+@2019-11-29 20:20:40 INFO  String:74 - Course Operation: Initialize course; title: Advanced Database Systems, myCode: 105305
+@2019-11-29 20:20:40 INFO  String:74 - Course Operation: Initialize course; title: Foundations of Programming Languages, myCode: 105001
+@2019-11-29 20:20:40 INFO  String:74 - Course Operation: Initialize course; title: Network Mobility, myCode: 108108
+@2019-11-29 20:20:40 INFO  String:74 - Course Operation: Initialize course; title: Discrete Mathematics, myCode: 108109
+@2019-11-29 20:20:40 INFO  String:117 - University Operation: Initialize course list; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-29 20:20:40 INFO  String:40 - Student Operation: Initialize student; student number: 101075401, student name: tom
+@2019-11-29 20:20:40 INFO  String:40 - Student Operation: Initialize student; student number: 101075402, student name: jack
+@2019-11-29 20:20:40 INFO  String:40 - Student Operation: Initialize student; student number: 101075404, student name: james
+@2019-11-29 20:20:40 INFO  String:131 - University Operation: Initialize student list; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-29 20:20:40 INFO  String:42 - University Operation: Initialize university; courses: [105104, OO Software Dev, 105008, Computational Geometry, 105003, Principles of Distributed Computing, 105305, Advanced Database Systems, 105001, Foundations of Programming Languages, 108108, Network Mobility, 108109, Discrete Mathematics]
+@2019-11-29 20:20:40 INFO  String:43 - University Operation: Initialize university; students: [101075401, tom, 101075402, jack, 101075404, james]
+@2019-11-29 20:20:43 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:64718] Client Socket: [64718 ]
+
+@2019-11-29 20:20:43 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 20:20:43 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__64718
+@2019-11-29 20:20:43 INFO  ATClient:32 - 64718 : Connected to server: /127.0.0.1
+@2019-11-29 20:20:43 INFO  ATClient:33 - 64718 : Connected to portid: 64718
+@2019-11-29 20:20:49 INFO  ATServer:69 - Client accepted : Client Address : [/127.0.0.1:64719] Client Socket: [64719 ]
+
+@2019-11-29 20:20:49 INFO  ATServer:59 - Waiting for a client ...
+@2019-11-29 20:20:49 INFO  ServerThread:55 - Class: ServerThread: Server Thread Running__64719
+@2019-11-29 20:20:49 INFO  ATClient:32 - 64719 : Connected to server: /127.0.0.1
+@2019-11-29 20:20:49 INFO  ATClient:33 - 64719 : Connected to portid: 64719
+@2019-11-29 20:20:52 INFO  ATServer:99 - Input from 127.0.0.1:64718 
+@2019-11-29 20:20:52 INFO  ATServer:127 - Output to 127.0.0.1:64718 Who Are you? Clerk or Student?
+
+@2019-11-29 20:20:54 INFO  ATServer:99 - Input from 127.0.0.1:64719 
+@2019-11-29 20:20:54 INFO  ATServer:127 - Output to 127.0.0.1:64719 Who Are you? Clerk or Student?
+
+@2019-11-29 20:20:58 INFO  ATServer:99 - Input from 127.0.0.1:64718 student
+@2019-11-29 20:20:58 INFO  ATServer:119 - Output to 127.0.0.1:64718 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-29 20:21:02 INFO  ATServer:99 - Input from 127.0.0.1:64719 student
+@2019-11-29 20:21:02 INFO  ATServer:119 - Output to 127.0.0.1:64719 Please Input Studentnumber and Name: 'student number, name'
+
+@2019-11-29 20:21:18 INFO  ATServer:99 - Input from 127.0.0.1:64718 101075401, tom
+@2019-11-29 20:21:18 INFO  String:260 - University Operation: Lookup student; Student info: [101075401,tom]; State: Success
+@2019-11-29 20:21:18 INFO  ATServer:119 - Output to 127.0.0.1:64718 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-29 20:21:25 INFO  ATServer:99 - Input from 127.0.0.1:64719 101075402, jack
+@2019-11-29 20:21:25 INFO  String:260 - University Operation: Lookup student; Student info: [101075402,jack]; State: Success
+@2019-11-29 20:21:25 INFO  ATServer:119 - Output to 127.0.0.1:64719 What can I do for you? Menu: Select Course, Register for Course, Drop Course, Deregister Course, Fulfill Course.
+
+@2019-11-29 20:21:31 INFO  ATServer:99 - Input from 127.0.0.1:64718 select course
+@2019-11-29 20:21:31 INFO  ATServer:113 - Now operating thread: 64718,101075401 
+@2019-11-29 20:21:31 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 20:21:31 INFO  ATServer:119 - Output to 127.0.0.1:64718 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-29 20:21:38 INFO  ATServer:99 - Input from 127.0.0.1:64719 select course
+@2019-11-29 20:21:38 INFO  ATServer:113 - Now operating thread: 64719,101075402 
+@2019-11-29 20:21:38 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 20:21:38 INFO  ATServer:119 - Output to 127.0.0.1:64719 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+105008, Computational Geometry
+105003, Principles of Distributed Computing
+105305, Advanced Database Systems
+105001, Foundations of Programming Languages
+108108, Network Mobility
+108109, Discrete Mathematics
+
+@2019-11-29 20:21:43 INFO  ATServer:99 - Input from 127.0.0.1:64718 105104
+@2019-11-29 20:21:43 INFO  ATServer:113 - Now operating thread: 64718,101075401 
+@2019-11-29 20:21:43 INFO  String:218 - University Operation: Check course; Course info: 105104; State: Success
+@2019-11-29 20:21:43 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 20:21:43 INFO  String:200 - University Operation: Get course; Course info: 105104; State: Success
+@2019-11-29 20:21:43 INFO  String:222 - Student Operation: student 101075401 has not selected course 105104;
+@2019-11-29 20:21:43 INFO  String:232 - Student Operation: student 101075401 has not registered for course 105104;
+@2019-11-29 20:21:43 INFO  String:242 - Student Operation: student 101075401 has not completed course 105104;
+@2019-11-29 20:21:43 INFO  String:148 - Student Operation: student 101075401 select course 105104; State: Success
+@2019-11-29 20:21:43 INFO  ATServer:119 - Output to 127.0.0.1:64718 Success!
+
+@2019-11-29 20:21:47 INFO  ATServer:99 - Input from 127.0.0.1:64719 105008
+@2019-11-29 20:21:47 INFO  ATServer:113 - Now operating thread: 64719,101075402 
+@2019-11-29 20:21:47 INFO  String:218 - University Operation: Check course; Course info: 105008; State: Success
+@2019-11-29 20:21:47 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 20:21:47 INFO  String:200 - University Operation: Get course; Course info: 105008; State: Success
+@2019-11-29 20:21:47 INFO  String:222 - Student Operation: student 101075402 has not selected course 105008;
+@2019-11-29 20:21:47 INFO  String:232 - Student Operation: student 101075402 has not registered for course 105008;
+@2019-11-29 20:21:47 INFO  String:242 - Student Operation: student 101075402 has not completed course 105008;
+@2019-11-29 20:21:47 INFO  String:148 - Student Operation: student 101075402 select course 105008; State: Success
+@2019-11-29 20:21:47 INFO  ATServer:119 - Output to 127.0.0.1:64719 Success!
+
+@2019-11-29 20:21:56 INFO  ATServer:99 - Input from 127.0.0.1:64718 register for course
+@2019-11-29 20:21:56 INFO  ATServer:113 - Now operating thread: 64718,101075401 
+@2019-11-29 20:21:56 INFO  String:187 - University Operation: Get student; Student info: 101075401; State: Success
+@2019-11-29 20:21:56 INFO  ATServer:119 - Output to 127.0.0.1:64718 Please Input Course Info: 'course code'
+Available Course List: 
+105104, OO Software Dev
+
+@2019-11-29 20:22:15 INFO  ATServer:99 - Input from 127.0.0.1:64719 register for course
+@2019-11-29 20:22:15 INFO  ATServer:113 - Now operating thread: 64719,101075402 
+@2019-11-29 20:22:15 INFO  String:187 - University Operation: Get student; Student info: 101075402; State: Success
+@2019-11-29 20:22:15 INFO  ATServer:119 - Output to 127.0.0.1:64719 Please Input Course Info: 'course code'
+Available Course List: 
+105008, Computational Geometry
+
 @

@@ -19,7 +19,8 @@ public class ServerThread extends Thread {
 	private BufferedReader streamIn = null;
 	private BufferedWriter streamOut = null;
 	private Logger logger = Trace.getInstance().getLogger(this);
-	private String clientAddress = null;;
+	private String clientAddress = null;
+	private int currentStudent = -1;
 	
 	private boolean done = false;
 	
@@ -78,6 +79,14 @@ public class ServerThread extends Thread {
 			this.socket = null;
 			this.streamIn = null;
 		} catch (IOException e) { }
+	}
+	
+	public void setCurrentStudent(int cs) {
+		currentStudent = cs;
+	}
+	
+	public int getCurrentStudent() {
+		return currentStudent;
 	}
 
 }

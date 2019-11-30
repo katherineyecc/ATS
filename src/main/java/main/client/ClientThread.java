@@ -16,6 +16,7 @@ public class ClientThread extends Thread {
 	private BufferedReader streamIn = null;
 	private boolean done = false;
 	private Logger logger = Trace.getInstance().getLogger(this);
+	//private int currentStudent;
 	
 	public ClientThread(ATClient client, Socket socket) {  
 		this.client = client;
