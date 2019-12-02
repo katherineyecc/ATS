@@ -1,4 +1,4 @@
-package test.pcucumber.ex1;
+package test.ocucumber.ex1;
 
 import java.util.List;
 import java.util.Timer;
