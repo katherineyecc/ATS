@@ -107,6 +107,8 @@ public class University implements UniversityInt {
 		Course c5 = new Course("Foundations of Programming Languages", 105001, 30, false, 1, 3, true);
 		Course c6 = new Course("Network Mobility", 108108, 0, false, 1, 3, true);
 		Course c7 = new Course("Discrete Mathematics", 108109, 1, false, 1, 3, true);//only use for testing 2 concurrent student register for the last place
+		Course c8 = new Course("Machine Learning", 108110, 2, false, 1, 3, true); // capsize of 2
+		Course c9 = new Course("Artificial Intelligence", 108111, 3, false, 1, 3, true); // capsize of 3
 		courses.add(c1);
 		courses.add(c2);
 		courses.add(c3);
@@ -114,6 +116,8 @@ public class University implements UniversityInt {
 		courses.add(c5);
 		courses.add(c6);
 		courses.add(c7);
+		courses.add(c8);
+		courses.add(c9);
 		logger.info(String.format("University Operation: Initialize course list; courses: %s", courses));
 		
 	}
@@ -121,9 +125,9 @@ public class University implements UniversityInt {
 	private void InitializeStudents() {
 		students.clear();
 		
-		int[] studentNumberList = new int[]{101075401, 101075402, 101075404};
-		String[] studentNameList = new String[]{"tom","jack","james"};
-		boolean[] isFullTimeList = new boolean[]{true,false,true};
+		int[] studentNumberList = new int[]{101075401, 101075402, 101075404, 101075405};
+		String[] studentNameList = new String[]{"tom","jack","james","joey"};
+		boolean[] isFullTimeList = new boolean[]{true,false,true,true};
 		for(int i=0;i<studentNumberList.length;i++) {
 			Student s = new Student(studentNumberList[i], studentNameList[i], isFullTimeList[i]);
 			students.add(s);
