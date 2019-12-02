@@ -1,0 +1,5 @@
+student
+student
+101075402,jack
+deregister course
+108111

@@ -1,0 +1,9 @@
+student
+student
+101075401,tom
+select course
+108111
+register for course
+108111
+log out
+exit

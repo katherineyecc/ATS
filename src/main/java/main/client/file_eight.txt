@@ -1,0 +1,7 @@
+student
+student
+101075405,joey
+select course
+108111
+register for course
+108111
