@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         strict = true,
-        features = {"/Users/sandra/git/ATS/src/test/java/test/pcucumber/pcucumberExp1.feature:22"},
+        features = {"/Users/sandra/git/ATS/src/test/java/test/pcucumber/pcucumberExp2.feature:22"},
         plugin = {"json:/Users/sandra/git/ATS/target/cucumber-parallel/json/3.json"},
         monochrome = true,
         glue = {"test.pcucumber"})

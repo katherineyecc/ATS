@@ -1,4 +1,4 @@
-package test.pcucumber;
+package test.pcucumber1;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
